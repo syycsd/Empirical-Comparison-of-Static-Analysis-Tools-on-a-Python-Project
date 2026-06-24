@@ -38,7 +38,7 @@ python post_process.py
 | Bandit | 1.8.2 | 在 Python 3.14 上扫描异常，结果为空；见 `raw/bandit_meta.json` |
 
 ## 靶项目
-
+- 地址: https://github.com/psf/requests/tree/v2.32.3 |
 - 路径：`target/requests/`
 - Tag：`v2.32.3`，Commit：`0e322af87745eff34caffe4df68456ebc20d9068`
 - 扫描范围：`src/requests/`（4560 行，18 文件）
