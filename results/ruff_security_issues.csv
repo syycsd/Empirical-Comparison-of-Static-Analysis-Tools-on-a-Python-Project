@@ -1,0 +1,53 @@
+﻿tool,rule_id,severity,file,line,column,message
+ruff_security,S101,medium,src/requests/__init__.py,60,5,Use of `assert` detected
+ruff_security,S101,medium,src/requests/__init__.py,70,5,Use of `assert` detected
+ruff_security,S101,medium,src/requests/__init__.py,72,9,Use of `assert` detected
+ruff_security,S101,medium,src/requests/__init__.py,79,9,Use of `assert` detected
+ruff_security,S101,medium,src/requests/__init__.py,84,9,Use of `assert` detected
+ruff_security,B028,medium,src/requests/__init__.py,86,9,No explicit `stacklevel` keyword argument found
+ruff_security,B028,medium,src/requests/__init__.py,104,9,No explicit `stacklevel` keyword argument found
+ruff_security,B028,medium,src/requests/__init__.py,113,5,No explicit `stacklevel` keyword argument found
+ruff_security,S101,medium,src/requests/_internal_utils.py,45,5,Use of `assert` detected
+ruff_security,B904,medium,src/requests/adapters.py,474,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B028,medium,src/requests/adapters.py,507,9,No explicit `stacklevel` keyword argument found
+ruff_security,B904,medium,src/requests/adapters.py,637,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,657,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,682,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,688,21,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,691,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,694,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,698,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,700,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,703,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,706,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,711,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,713,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,715,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B028,medium,src/requests/auth.py,36,9,No explicit `stacklevel` keyword argument found
+ruff_security,B028,medium,src/requests/auth.py,46,9,No explicit `stacklevel` keyword argument found
+ruff_security,S324,medium,src/requests/auth.py,148,24,Probable use of insecure hash functions in `hashlib`: `md5`
+ruff_security,S324,medium,src/requests/auth.py,156,24,Probable use of insecure hash functions in `hashlib`: `sha1`
+ruff_security,S324,medium,src/requests/auth.py,205,18,Probable use of insecure hash functions in `hashlib`: `sha1`
+ruff_security,B018,medium,src/requests/auth.py,267,13,Found useless expression. Either assign it to a variable or remove it.
+ruff_security,B904,medium,src/requests/cookies.py,500,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B004,medium,src/requests/hooks.py,27,12,"Using `hasattr(x, ""__call__"")` to test if x is callable is unreliable. Use `callable(x)` for consistent results."
+ruff_security,B904,medium,src/requests/models.py,406,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/models.py,435,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/models.py,454,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/models.py,512,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B018,medium,src/requests/models.py,715,13,Found useless expression. Either assign it to a variable or remove it.
+ruff_security,B010,medium,src/requests/models.py,724,9,Do not call `setattr` with a constant attribute value. It is not any safer than normal property access.
+ruff_security,B010,medium,src/requests/models.py,725,9,Do not call `setattr` with a constant attribute value. It is not any safer than normal property access.
+ruff_security,B904,medium,src/requests/models.py,822,21,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/models.py,824,21,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/models.py,826,21,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/models.py,828,21,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/models.py,971,21,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/models.py,978,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B018,medium,src/requests/sessions.py,186,17,Found useless expression. Either assign it to a variable or remove it.
+ruff_security,B018,medium,src/requests/sessions.py,746,13,Found useless expression. Either assign it to a variable or remove it.
+ruff_security,B028,medium,src/requests/utils.py,162,17,No explicit `stacklevel` keyword argument found
+ruff_security,B028,medium,src/requests/utils.py,494,5,No explicit `stacklevel` keyword argument found
+ruff_security,B028,medium,src/requests/utils.py,603,5,No explicit `stacklevel` keyword argument found
+ruff_security,B904,medium,src/requests/utils.py,649,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/utils.py,1092,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"

@@ -1,0 +1,91 @@
+﻿tool,rule_id,severity,file,line,column,message,label,fix_cost,annotator_note
+pylint,no-else-raise,low,target/requests/src/requests/adapters.py,709,12,"Unnecessary ""elif"" after ""raise"", remove the leading ""el"" from ""elif""",UNK,,需人工复核
+pylint,wrong-import-order,low,target/requests/src/requests/__init__.py,148,,"standard import ""logging"" should be placed before third party imports ""urllib3"", ""urllib3.exceptions.DependencyWarning"" and local import ""exceptions.RequestsDependencyWarning""",FP,,import 顺序
+pylint,missing-function-docstring,low,target/requests/src/requests/cookies.py,46,4,Missing function or method docstring,FP,,文档风格非功能缺陷
+pylint,wrong-import-position,low,target/requests/src/requests/compat.py,64,,"Import ""from io import StringIO"" should be placed at the top of the module",FP,,import 顺序
+pylint,invalid-name,low,target/requests/src/requests/compat.py,50,4,"Constant name ""has_simplejson"" doesn't conform to UPPER_CASE naming style",FP,,命名风格
+pylint,line-too-long,low,target/requests/src/requests/api.py,36,,Line too long (136/100),FP,,纯风格问题
+pylint,too-many-positional-arguments,low,target/requests/src/requests/adapters.py,613,4,Too many positional arguments (7/5),UNK,,需人工复核
+pylint,import-outside-toplevel,low,target/requests/src/requests/utils.py,214,8,"Import outside toplevel (netrc.NetrcParseError, netrc.netrc)",UNK,,需人工复核
+pylint,too-many-arguments,low,target/requests/src/requests/adapters.py,143,4,Too many arguments (7/5),FP,,复杂度启发式
+pylint,invalid-name,low,target/requests/src/requests/utils.py,953,,"Constant name ""_null2"" doesn't conform to UPPER_CASE naming style",FP,,命名风格
+pylint,too-many-instance-attributes,low,target/requests/src/requests/models.py,640,,Too many instance attributes (13/7),UNK,,需人工复核
+pylint,wrong-import-order,low,target/requests/src/requests/__init__.py,149,,"standard import ""logging.NullHandler"" should be placed before third party imports ""urllib3"", ""urllib3.exceptions.DependencyWarning"" and local import ""exceptions.RequestsDependencyWarning""",FP,,import 顺序
+pylint,wrong-import-position,low,target/requests/src/requests/__init__.py,148,,"Import ""import logging"" should be placed at the top of the module",FP,,import 顺序
+pylint,too-many-positional-arguments,low,target/requests/src/requests/adapters.py,143,4,Too many positional arguments (7/5),UNK,,需人工复核
+pylint,invalid-name,low,target/requests/src/requests/auth.py,207,12,"Variable name ""HA1"" doesn't conform to snake_case naming style",FP,,命名风格
+pylint,wrong-import-position,low,target/requests/src/requests/compat.py,61,,"Import ""from collections.abc import Callable, Mapping, MutableMapping"" should be placed at the top of the module",FP,,import 顺序
+pylint,import-outside-toplevel,low,target/requests/src/requests/utils.py,78,12,Import outside toplevel (winreg),UNK,,需人工复核
+pylint,fixme,medium,target/requests/src/requests/hooks.py,19,1,TODO: response is the only one,UNK,,需人工复核
+pylint,redefined-outer-name,medium,target/requests/src/requests/__init__.py,93,24,Redefining name 'cryptography_version' from outer scope (line 136),FP,,测试/版本检测上下文常见
+pylint,protected-access,medium,target/requests/src/requests/cookies.py,136,23,Access to a protected member _original_response of a client class,UNK,,需结合 API 设计判断
+pylint,missing-timeout,medium,target/requests/src/requests/api.py,73,11,Missing timeout argument for method 'request' can cause your program to hang indefinitely,UNK,,需人工复核
+pylint,raise-missing-from,medium,target/requests/src/requests/models.py,828,20,Consider explicitly re-raising using 'raise RequestsSSLError(e) from e',TP,low,异常链缺失影响调试
+pylint,raise-missing-from,medium,target/requests/src/requests/models.py,435,12,Consider explicitly re-raising using 'raise InvalidURL(*e.args) from e',TP,low,异常链缺失影响调试
+pylint,raise-missing-from,medium,target/requests/src/requests/models.py,824,20,Consider explicitly re-raising using 'raise ContentDecodingError(e) from e',TP,low,异常链缺失影响调试
+pylint,self-assigning-variable,medium,target/requests/src/requests/compat.py,91,,Assigning the same variable 'bytes' to itself,UNK,,需人工复核
+pylint,unused-import,medium,target/requests/src/requests/compat.py,69,,Unused unquote imported from urllib.parse,TP,low,未使用导入可安全删除
+pylint,missing-timeout,medium,target/requests/src/requests/api.py,115,11,Missing timeout argument for method 'request' can cause your program to hang indefinitely,UNK,,需人工复核
+pylint,unused-import,medium,target/requests/src/requests/compat.py,69,,Unused urljoin imported from urllib.parse,TP,low,未使用导入可安全删除
+pylint,raise-missing-from,medium,target/requests/src/requests/cookies.py,500,12,"Consider explicitly re-raising using 'except ValueError as exc' and 'raise TypeError(f""max-age: {morsel['max-age']} must be integer"") from exc'",TP,low,异常链缺失影响调试
+pylint,fixme,medium,target/requests/src/requests/auth.py,220,9,XXX should the partial digests be encoded too?,UNK,,需人工复核
+ruff,E501,medium,src/requests/__init__.py,114,89,Line too long (89 > 88),FP,,纯风格问题
+ruff,PLR0912,medium,src/requests/adapters.py,613,9,Too many branches (19 > 12),FP,,too-many-branches
+ruff,SIM108,medium,src/requests/models.py,416,9,"Use ternary operator `url = url.decode(""utf8"") if isinstance(url, bytes) else str(url)` instead of `if`-`else`-block",UNK,,需人工复核
+ruff,TRY003,medium,src/requests/cookies.py,413,15,Avoid specifying long messages outside the exception class,FP,,异常消息风格
+ruff,F401,medium,src/requests/compat.py,73,5,`urllib.parse.unquote_plus` imported but unused,TP,low,未使用导入可安全删除
+ruff,E501,medium,src/requests/adapters.py,587,89,Line too long (89 > 88),FP,,纯风格问题
+ruff,SIM108,medium,src/requests/auth.py,138,9,"Use ternary operator `_algorithm = ""MD5"" if algorithm is None else algorithm.upper()` instead of `if`-`else`-block",UNK,,需人工复核
+ruff,N806,medium,src/requests/cookies.py,409,25,Variable `toReturn` in function should be lowercase,FP,,变量命名风格
+ruff,N802,medium,src/requests/adapters.py,63,9,Function name `SOCKSProxyManager` should be lowercase,UNK,,需人工复核
+ruff,F401,medium,src/requests/__init__.py,178,32,"`.sessions.session` imported but unused; consider removing, adding to `__all__`, or using a redundant alias",TP,low,未使用导入可安全删除
+ruff,PLW2901,medium,src/requests/models.py,123,21,`for` loop variable `vs` overwritten by assignment target,UNK,,需人工复核
+ruff,F401,medium,src/requests/__init__.py,179,27,"`.status_codes.codes` imported but unused; consider removing, adding to `__all__`, or using a redundant alias",TP,low,未使用导入可安全删除
+ruff,N818,medium,src/requests/exceptions.py,12,7,Exception name `RequestException` should be named with an Error suffix,UNK,,需人工复核
+ruff,EM102,medium,src/requests/cookies.py,480,13,"Exception must not use an f-string literal, assign to variable first",FP,,异常 f-string 风格
+ruff,E501,medium,src/requests/utils.py,799,89,Line too long (96 > 88),FP,,纯风格问题
+ruff,F401,medium,src/requests/compat.py,63,26,`http.cookies.Morsel` imported but unused,TP,low,未使用导入可安全删除
+ruff,E402,medium,src/requests/__init__.py,164,1,Module level import not at top of file,FP,,module-import-not-at-top
+ruff,FBT002,medium,src/requests/models.py,799,42,Boolean default positional argument in function definition,FP,,布尔参数位置风格
+ruff,N806,medium,src/requests/utils.py,88,13,Variable `proxyEnable` in function should be lowercase,FP,,变量命名风格
+ruff,RUF012,medium,src/requests/adapters.py,194,17,Mutable class attributes should be annotated with `typing.ClassVar`,UNK,,需人工复核
+ruff,RET505,medium,src/requests/models.py,117,9,Unnecessary `elif` after `return` statement,UNK,,需人工复核
+ruff,F401,medium,src/requests/__init__.py,175,5,"`.exceptions.URLRequired` imported but unused; consider removing, adding to `__all__`, or using a redundant alias",TP,low,未使用导入可安全删除
+ruff,RUF100,medium,src/requests/utils.py,114,30,Unused blanket `noqa` directive,UNK,,需人工复核
+ruff,F401,medium,src/requests/compat.py,82,5,`urllib.request.getproxies` imported but unused,TP,low,未使用导入可安全删除
+ruff,TRY003,medium,src/requests/utils.py,1092,19,Avoid specifying long messages outside the exception class,FP,,异常消息风格
+ruff,PLR2004,medium,src/requests/utils.py,980,21,"Magic value used in comparison, consider replacing `3` with a constant variable",FP,,magic value 在 HTTP 库中常见
+ruff,N818,medium,src/requests/exceptions.py,99,7,Exception name `MissingSchema` should be named with an Error suffix,UNK,,需人工复核
+ruff,EM101,medium,src/requests/utils.py,366,26,"Exception must not use a string literal, assign to variable first",FP,,异常字符串字面量风格
+ruff,E501,medium,src/requests/api.py,39,89,Line too long (91 > 88),FP,,纯风格问题
+ruff,F401,medium,src/requests/__init__.py,170,5,"`.exceptions.JSONDecodeError` imported but unused; consider removing, adding to `__all__`, or using a redundant alias",TP,low,未使用导入可安全删除
+ruff_security,S101,medium,src/requests/__init__.py,72,9,Use of `assert` detected,UNK,,需人工复核
+ruff_security,B904,medium,src/requests/models.py,828,21,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",TP,low,raise-without-from-inside-except
+ruff_security,B904,medium,src/requests/adapters.py,688,21,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",TP,low,raise-without-from-inside-except
+ruff_security,B904,medium,src/requests/adapters.py,700,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",TP,low,raise-without-from-inside-except
+ruff_security,B028,medium,src/requests/__init__.py,86,9,No explicit `stacklevel` keyword argument found,UNK,,需人工复核
+ruff_security,B028,medium,src/requests/utils.py,603,5,No explicit `stacklevel` keyword argument found,UNK,,需人工复核
+ruff_security,B028,medium,src/requests/__init__.py,104,9,No explicit `stacklevel` keyword argument found,UNK,,需人工复核
+ruff_security,B028,medium,src/requests/auth.py,36,9,No explicit `stacklevel` keyword argument found,UNK,,需人工复核
+ruff_security,B904,medium,src/requests/adapters.py,698,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",TP,low,raise-without-from-inside-except
+ruff_security,B018,medium,src/requests/auth.py,267,13,Found useless expression. Either assign it to a variable or remove it.,UNK,,需人工复核
+ruff_security,B904,medium,src/requests/models.py,824,21,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",TP,low,raise-without-from-inside-except
+ruff_security,B904,medium,src/requests/adapters.py,715,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",TP,low,raise-without-from-inside-except
+ruff_security,B028,medium,src/requests/adapters.py,507,9,No explicit `stacklevel` keyword argument found,UNK,,需人工复核
+ruff_security,B904,medium,src/requests/models.py,826,21,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",TP,low,raise-without-from-inside-except
+ruff_security,B904,medium,src/requests/adapters.py,713,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",TP,low,raise-without-from-inside-except
+ruff_security,B904,medium,src/requests/adapters.py,682,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",TP,low,raise-without-from-inside-except
+ruff_security,B904,medium,src/requests/models.py,971,21,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",TP,low,raise-without-from-inside-except
+ruff_security,S101,medium,src/requests/__init__.py,84,9,Use of `assert` detected,UNK,,需人工复核
+ruff_security,B904,medium,src/requests/models.py,822,21,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",TP,low,raise-without-from-inside-except
+ruff_security,B904,medium,src/requests/adapters.py,691,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",TP,low,raise-without-from-inside-except
+ruff_security,B904,medium,src/requests/models.py,435,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",TP,low,raise-without-from-inside-except
+ruff_security,B018,medium,src/requests/sessions.py,746,13,Found useless expression. Either assign it to a variable or remove it.,UNK,,需人工复核
+ruff_security,B904,medium,src/requests/adapters.py,657,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",TP,low,raise-without-from-inside-except
+ruff_security,S101,medium,src/requests/_internal_utils.py,45,5,Use of `assert` detected,UNK,,需人工复核
+ruff_security,B904,medium,src/requests/adapters.py,706,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",TP,low,raise-without-from-inside-except
+ruff_security,B010,medium,src/requests/models.py,724,9,Do not call `setattr` with a constant attribute value. It is not any safer than normal property access.,UNK,,需人工复核
+ruff_security,B904,medium,src/requests/models.py,512,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",TP,low,raise-without-from-inside-except
+ruff_security,B028,medium,src/requests/__init__.py,113,5,No explicit `stacklevel` keyword argument found,UNK,,需人工复核
+ruff_security,B904,medium,src/requests/adapters.py,711,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",TP,low,raise-without-from-inside-except
+ruff_security,B004,medium,src/requests/hooks.py,27,12,"Using `hasattr(x, ""__call__"")` to test if x is callable is unreliable. Use `callable(x)` for consistent results.",UNK,,需人工复核

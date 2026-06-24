@@ -1,0 +1,46 @@
+{
+  "by_location": {
+    "pylint_vs_ruff": {
+      "jaccard": 0.2076,
+      "intersection": 82,
+      "union": 395
+    },
+    "pylint_vs_ruff_security": {
+      "jaccard": 0.1293,
+      "intersection": 30,
+      "union": 232
+    },
+    "ruff_vs_ruff_security": {
+      "jaccard": 0.0192,
+      "intersection": 6,
+      "union": 313
+    }
+  },
+  "by_location_rule": {
+    "pylint_vs_ruff": {
+      "jaccard": 0.0,
+      "intersection": 0,
+      "union": 553
+    },
+    "pylint_vs_ruff_security": {
+      "jaccard": 0.0,
+      "intersection": 0,
+      "union": 301
+    },
+    "ruff_vs_ruff_security": {
+      "jaccard": 0.0,
+      "intersection": 0,
+      "union": 356
+    }
+  },
+  "counts": {
+    "pylint": 210,
+    "ruff": 267,
+    "ruff_security": 52
+  },
+  "three_way_location": {
+    "intersection": 5,
+    "union": 416,
+    "ratio": 0.012
+  }
+}

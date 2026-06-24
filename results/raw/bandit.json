@@ -1,0 +1,183 @@
+{
+  "errors": [
+    {
+      "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\__init__.py",
+      "reason": "exception while scanning file"
+    },
+    {
+      "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\__version__.py",
+      "reason": "exception while scanning file"
+    },
+    {
+      "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\_internal_utils.py",
+      "reason": "exception while scanning file"
+    },
+    {
+      "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\adapters.py",
+      "reason": "exception while scanning file"
+    },
+    {
+      "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\api.py",
+      "reason": "exception while scanning file"
+    },
+    {
+      "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\auth.py",
+      "reason": "exception while scanning file"
+    },
+    {
+      "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\certs.py",
+      "reason": "exception while scanning file"
+    },
+    {
+      "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\compat.py",
+      "reason": "exception while scanning file"
+    },
+    {
+      "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\cookies.py",
+      "reason": "exception while scanning file"
+    },
+    {
+      "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\exceptions.py",
+      "reason": "exception while scanning file"
+    },
+    {
+      "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\help.py",
+      "reason": "exception while scanning file"
+    },
+    {
+      "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\hooks.py",
+      "reason": "exception while scanning file"
+    },
+    {
+      "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\models.py",
+      "reason": "exception while scanning file"
+    },
+    {
+      "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\packages.py",
+      "reason": "exception while scanning file"
+    },
+    {
+      "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\sessions.py",
+      "reason": "exception while scanning file"
+    },
+    {
+      "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\status_codes.py",
+      "reason": "exception while scanning file"
+    },
+    {
+      "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\structures.py",
+      "reason": "exception while scanning file"
+    },
+    {
+      "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\utils.py",
+      "reason": "exception while scanning file"
+    }
+  ],
+  "generated_at": "2026-06-23T15:07:17Z",
+  "metrics": {
+    "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\__init__.py": {
+      "loc": 132,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\__version__.py": {
+      "loc": 10,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\_internal_utils.py": {
+      "loc": 40,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\adapters.py": {
+      "loc": 585,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\api.py": {
+      "loc": 117,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\auth.py": {
+      "loc": 223,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\certs.py": {
+      "loc": 12,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\compat.py": {
+      "loc": 63,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\cookies.py": {
+      "loc": 439,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\exceptions.py": {
+      "loc": 91,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\help.py": {
+      "loc": 112,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\hooks.py": {
+      "loc": 23,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\models.py": {
+      "loc": 740,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\packages.py": {
+      "loc": 15,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\sessions.py": {
+      "loc": 566,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\status_codes.py": {
+      "loc": 112,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\structures.py": {
+      "loc": 67,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\utils.py": {
+      "loc": 776,
+      "nosec": 0,
+      "skipped_tests": 0
+    },
+    "_totals": {
+      "CONFIDENCE.HIGH": 0,
+      "CONFIDENCE.LOW": 0,
+      "CONFIDENCE.MEDIUM": 0,
+      "CONFIDENCE.UNDEFINED": 0,
+      "SEVERITY.HIGH": 0,
+      "SEVERITY.LOW": 0,
+      "SEVERITY.MEDIUM": 0,
+      "SEVERITY.UNDEFINED": 0,
+      "loc": 4123,
+      "nosec": 0,
+      "skipped_tests": 0
+    }
+  },
+  "results": []
+}

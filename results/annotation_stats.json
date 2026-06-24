@@ -1,0 +1,74 @@
+{
+  "pylint": {
+    "sample_size": 30,
+    "TP_pct": 20.0,
+    "FP_pct": 40.0,
+    "UNK_pct": 40.0,
+    "tp_fix_cost": {
+      "low": 6
+    },
+    "top_fp_rules": [
+      [
+        "wrong-import-position",
+        3
+      ],
+      [
+        "invalid-name",
+        3
+      ],
+      [
+        "wrong-import-order",
+        2
+      ],
+      [
+        "missing-function-docstring",
+        1
+      ],
+      [
+        "line-too-long",
+        1
+      ]
+    ]
+  },
+  "ruff": {
+    "sample_size": 30,
+    "TP_pct": 23.3,
+    "FP_pct": 46.7,
+    "UNK_pct": 30.0,
+    "tp_fix_cost": {
+      "low": 7
+    },
+    "top_fp_rules": [
+      [
+        "E501",
+        4
+      ],
+      [
+        "TRY003",
+        2
+      ],
+      [
+        "N806",
+        2
+      ],
+      [
+        "PLR0912",
+        1
+      ],
+      [
+        "EM102",
+        1
+      ]
+    ]
+  },
+  "ruff_security": {
+    "sample_size": 30,
+    "TP_pct": 56.7,
+    "FP_pct": 0.0,
+    "UNK_pct": 43.3,
+    "tp_fix_cost": {
+      "low": 17
+    },
+    "top_fp_rules": []
+  }
+}

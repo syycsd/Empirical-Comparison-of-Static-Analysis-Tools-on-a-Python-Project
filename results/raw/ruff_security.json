@@ -1,0 +1,1078 @@
+[
+  {
+    "cell": null,
+    "code": "S101",
+    "end_location": {
+      "column": 11,
+      "row": 60
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\__init__.py",
+    "fix": null,
+    "location": {
+      "column": 5,
+      "row": 60
+    },
+    "message": "Use of `assert` detected",
+    "noqa_row": 60,
+    "url": "https://docs.astral.sh/ruff/rules/assert"
+  },
+  {
+    "cell": null,
+    "code": "S101",
+    "end_location": {
+      "column": 11,
+      "row": 70
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\__init__.py",
+    "fix": null,
+    "location": {
+      "column": 5,
+      "row": 70
+    },
+    "message": "Use of `assert` detected",
+    "noqa_row": 70,
+    "url": "https://docs.astral.sh/ruff/rules/assert"
+  },
+  {
+    "cell": null,
+    "code": "S101",
+    "end_location": {
+      "column": 15,
+      "row": 72
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\__init__.py",
+    "fix": null,
+    "location": {
+      "column": 9,
+      "row": 72
+    },
+    "message": "Use of `assert` detected",
+    "noqa_row": 72,
+    "url": "https://docs.astral.sh/ruff/rules/assert"
+  },
+  {
+    "cell": null,
+    "code": "S101",
+    "end_location": {
+      "column": 15,
+      "row": 79
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\__init__.py",
+    "fix": null,
+    "location": {
+      "column": 9,
+      "row": 79
+    },
+    "message": "Use of `assert` detected",
+    "noqa_row": 79,
+    "url": "https://docs.astral.sh/ruff/rules/assert"
+  },
+  {
+    "cell": null,
+    "code": "S101",
+    "end_location": {
+      "column": 15,
+      "row": 84
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\__init__.py",
+    "fix": null,
+    "location": {
+      "column": 9,
+      "row": 84
+    },
+    "message": "Use of `assert` detected",
+    "noqa_row": 84,
+    "url": "https://docs.astral.sh/ruff/rules/assert"
+  },
+  {
+    "cell": null,
+    "code": "B028",
+    "end_location": {
+      "column": 22,
+      "row": 86
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\__init__.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": ", stacklevel=2",
+          "end_location": {
+            "column": 38,
+            "row": 89
+          },
+          "location": {
+            "column": 38,
+            "row": 89
+          }
+        }
+      ],
+      "message": "Set `stacklevel=2`"
+    },
+    "location": {
+      "column": 9,
+      "row": 86
+    },
+    "message": "No explicit `stacklevel` keyword argument found",
+    "noqa_row": 86,
+    "url": "https://docs.astral.sh/ruff/rules/no-explicit-stacklevel"
+  },
+  {
+    "cell": null,
+    "code": "B028",
+    "end_location": {
+      "column": 22,
+      "row": 104
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\__init__.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": ", stacklevel=2",
+          "end_location": {
+            "column": 57,
+            "row": 104
+          },
+          "location": {
+            "column": 57,
+            "row": 104
+          }
+        }
+      ],
+      "message": "Set `stacklevel=2`"
+    },
+    "location": {
+      "column": 9,
+      "row": 104
+    },
+    "message": "No explicit `stacklevel` keyword argument found",
+    "noqa_row": 104,
+    "url": "https://docs.astral.sh/ruff/rules/no-explicit-stacklevel"
+  },
+  {
+    "cell": null,
+    "code": "B028",
+    "end_location": {
+      "column": 18,
+      "row": 113
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\__init__.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": ", stacklevel=2",
+          "end_location": {
+            "column": 34,
+            "row": 118
+          },
+          "location": {
+            "column": 34,
+            "row": 118
+          }
+        }
+      ],
+      "message": "Set `stacklevel=2`"
+    },
+    "location": {
+      "column": 5,
+      "row": 113
+    },
+    "message": "No explicit `stacklevel` keyword argument found",
+    "noqa_row": 113,
+    "url": "https://docs.astral.sh/ruff/rules/no-explicit-stacklevel"
+  },
+  {
+    "cell": null,
+    "code": "S101",
+    "end_location": {
+      "column": 11,
+      "row": 45
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\_internal_utils.py",
+    "fix": null,
+    "location": {
+      "column": 5,
+      "row": 45
+    },
+    "message": "Use of `assert` detected",
+    "noqa_row": 45,
+    "url": "https://docs.astral.sh/ruff/rules/assert"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 49,
+      "row": 474
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\adapters.py",
+    "fix": null,
+    "location": {
+      "column": 13,
+      "row": 474
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 474,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B028",
+    "end_location": {
+      "column": 22,
+      "row": 507
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\adapters.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": ", stacklevel=2",
+          "end_location": {
+            "column": 31,
+            "row": 514
+          },
+          "location": {
+            "column": 31,
+            "row": 514
+          }
+        }
+      ],
+      "message": "Set `stacklevel=2`"
+    },
+    "location": {
+      "column": 9,
+      "row": 507
+    },
+    "message": "No explicit `stacklevel` keyword argument found",
+    "noqa_row": 507,
+    "url": "https://docs.astral.sh/ruff/rules/no-explicit-stacklevel"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 49,
+      "row": 637
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\adapters.py",
+    "fix": null,
+    "location": {
+      "column": 13,
+      "row": 637
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 637,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 18,
+      "row": 660
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\adapters.py",
+    "fix": null,
+    "location": {
+      "column": 17,
+      "row": 657
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 657,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 56,
+      "row": 682
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\adapters.py",
+    "fix": null,
+    "location": {
+      "column": 13,
+      "row": 682
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 682,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 61,
+      "row": 688
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\adapters.py",
+    "fix": null,
+    "location": {
+      "column": 21,
+      "row": 688
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 688,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 53,
+      "row": 691
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\adapters.py",
+    "fix": null,
+    "location": {
+      "column": 17,
+      "row": 691
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 691,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 53,
+      "row": 694
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\adapters.py",
+    "fix": null,
+    "location": {
+      "column": 17,
+      "row": 694
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 694,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 51,
+      "row": 698
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\adapters.py",
+    "fix": null,
+    "location": {
+      "column": 17,
+      "row": 698
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 698,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 54,
+      "row": 700
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\adapters.py",
+    "fix": null,
+    "location": {
+      "column": 13,
+      "row": 700
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 700,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 54,
+      "row": 703
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\adapters.py",
+    "fix": null,
+    "location": {
+      "column": 13,
+      "row": 703
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 703,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 32,
+      "row": 706
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\adapters.py",
+    "fix": null,
+    "location": {
+      "column": 13,
+      "row": 706
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 706,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 51,
+      "row": 711
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\adapters.py",
+    "fix": null,
+    "location": {
+      "column": 17,
+      "row": 711
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 711,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 54,
+      "row": 713
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\adapters.py",
+    "fix": null,
+    "location": {
+      "column": 17,
+      "row": 713
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 713,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 56,
+      "row": 715
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\adapters.py",
+    "fix": null,
+    "location": {
+      "column": 17,
+      "row": 715
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 715,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B028",
+    "end_location": {
+      "column": 22,
+      "row": 36
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\auth.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": ", stacklevel=2",
+          "end_location": {
+            "column": 40,
+            "row": 41
+          },
+          "location": {
+            "column": 40,
+            "row": 41
+          }
+        }
+      ],
+      "message": "Set `stacklevel=2`"
+    },
+    "location": {
+      "column": 9,
+      "row": 36
+    },
+    "message": "No explicit `stacklevel` keyword argument found",
+    "noqa_row": 36,
+    "url": "https://docs.astral.sh/ruff/rules/no-explicit-stacklevel"
+  },
+  {
+    "cell": null,
+    "code": "B028",
+    "end_location": {
+      "column": 22,
+      "row": 46
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\auth.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": ", stacklevel=2",
+          "end_location": {
+            "column": 40,
+            "row": 51
+          },
+          "location": {
+            "column": 40,
+            "row": 51
+          }
+        }
+      ],
+      "message": "Set `stacklevel=2`"
+    },
+    "location": {
+      "column": 9,
+      "row": 46
+    },
+    "message": "No explicit `stacklevel` keyword argument found",
+    "noqa_row": 46,
+    "url": "https://docs.astral.sh/ruff/rules/no-explicit-stacklevel"
+  },
+  {
+    "cell": null,
+    "code": "S324",
+    "end_location": {
+      "column": 35,
+      "row": 148
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\auth.py",
+    "fix": null,
+    "location": {
+      "column": 24,
+      "row": 148
+    },
+    "message": "Probable use of insecure hash functions in `hashlib`: `md5`",
+    "noqa_row": 148,
+    "url": "https://docs.astral.sh/ruff/rules/hashlib-insecure-hash-function"
+  },
+  {
+    "cell": null,
+    "code": "S324",
+    "end_location": {
+      "column": 36,
+      "row": 156
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\auth.py",
+    "fix": null,
+    "location": {
+      "column": 24,
+      "row": 156
+    },
+    "message": "Probable use of insecure hash functions in `hashlib`: `sha1`",
+    "noqa_row": 156,
+    "url": "https://docs.astral.sh/ruff/rules/hashlib-insecure-hash-function"
+  },
+  {
+    "cell": null,
+    "code": "S324",
+    "end_location": {
+      "column": 30,
+      "row": 205
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\auth.py",
+    "fix": null,
+    "location": {
+      "column": 18,
+      "row": 205
+    },
+    "message": "Probable use of insecure hash functions in `hashlib`: `sha1`",
+    "noqa_row": 205,
+    "url": "https://docs.astral.sh/ruff/rules/hashlib-insecure-hash-function"
+  },
+  {
+    "cell": null,
+    "code": "B018",
+    "end_location": {
+      "column": 22,
+      "row": 267
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\auth.py",
+    "fix": null,
+    "location": {
+      "column": 13,
+      "row": 267
+    },
+    "message": "Found useless expression. Either assign it to a variable or remove it.",
+    "noqa_row": 267,
+    "url": "https://docs.astral.sh/ruff/rules/useless-expression"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 77,
+      "row": 500
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\cookies.py",
+    "fix": null,
+    "location": {
+      "column": 13,
+      "row": 500
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 500,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B004",
+    "end_location": {
+      "column": 38,
+      "row": 27
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\hooks.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "callable(hooks)",
+          "end_location": {
+            "column": 38,
+            "row": 27
+          },
+          "location": {
+            "column": 12,
+            "row": 27
+          }
+        }
+      ],
+      "message": "Replace with `callable()`"
+    },
+    "location": {
+      "column": 12,
+      "row": 27
+    },
+    "message": "Using `hasattr(x, \"__call__\")` to test if x is callable is unreliable. Use `callable(x)` for consistent results.",
+    "noqa_row": 27,
+    "url": "https://docs.astral.sh/ruff/rules/unreliable-callable-check"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 31,
+      "row": 406
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\models.py",
+    "fix": null,
+    "location": {
+      "column": 13,
+      "row": 406
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 406,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 38,
+      "row": 435
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\models.py",
+    "fix": null,
+    "location": {
+      "column": 13,
+      "row": 435
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 435,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 62,
+      "row": 454
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\models.py",
+    "fix": null,
+    "location": {
+      "column": 17,
+      "row": 454
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 454,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 57,
+      "row": 512
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\models.py",
+    "fix": null,
+    "location": {
+      "column": 17,
+      "row": 512
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 512,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B018",
+    "end_location": {
+      "column": 25,
+      "row": 715
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\models.py",
+    "fix": null,
+    "location": {
+      "column": 13,
+      "row": 715
+    },
+    "message": "Found useless expression. Either assign it to a variable or remove it.",
+    "noqa_row": 715,
+    "url": "https://docs.astral.sh/ruff/rules/useless-expression"
+  },
+  {
+    "cell": null,
+    "code": "B010",
+    "end_location": {
+      "column": 49,
+      "row": 724
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\models.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "self._content_consumed = True",
+          "end_location": {
+            "column": 49,
+            "row": 724
+          },
+          "location": {
+            "column": 9,
+            "row": 724
+          }
+        }
+      ],
+      "message": "Replace `setattr` with assignment"
+    },
+    "location": {
+      "column": 9,
+      "row": 724
+    },
+    "message": "Do not call `setattr` with a constant attribute value. It is not any safer than normal property access.",
+    "noqa_row": 724,
+    "url": "https://docs.astral.sh/ruff/rules/set-attr-with-constant"
+  },
+  {
+    "cell": null,
+    "code": "B010",
+    "end_location": {
+      "column": 35,
+      "row": 725
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\models.py",
+    "fix": {
+      "applicability": "safe",
+      "edits": [
+        {
+          "content": "self.raw = None",
+          "end_location": {
+            "column": 35,
+            "row": 725
+          },
+          "location": {
+            "column": 9,
+            "row": 725
+          }
+        }
+      ],
+      "message": "Replace `setattr` with assignment"
+    },
+    "location": {
+      "column": 9,
+      "row": 725
+    },
+    "message": "Do not call `setattr` with a constant attribute value. It is not any safer than normal property access.",
+    "noqa_row": 725,
+    "url": "https://docs.astral.sh/ruff/rules/set-attr-with-constant"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 50,
+      "row": 822
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\models.py",
+    "fix": null,
+    "location": {
+      "column": 21,
+      "row": 822
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 822,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 50,
+      "row": 824
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\models.py",
+    "fix": null,
+    "location": {
+      "column": 21,
+      "row": 824
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 824,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 45,
+      "row": 826
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\models.py",
+    "fix": null,
+    "location": {
+      "column": 21,
+      "row": 826
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 826,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 46,
+      "row": 828
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\models.py",
+    "fix": null,
+    "location": {
+      "column": 21,
+      "row": 828
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 828,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 71,
+      "row": 971
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\models.py",
+    "fix": null,
+    "location": {
+      "column": 21,
+      "row": 971
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 971,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 63,
+      "row": 978
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\models.py",
+    "fix": null,
+    "location": {
+      "column": 13,
+      "row": 978
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 978,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B018",
+    "end_location": {
+      "column": 29,
+      "row": 186
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\sessions.py",
+    "fix": null,
+    "location": {
+      "column": 17,
+      "row": 186
+    },
+    "message": "Found useless expression. Either assign it to a variable or remove it.",
+    "noqa_row": 186,
+    "url": "https://docs.astral.sh/ruff/rules/useless-expression"
+  },
+  {
+    "cell": null,
+    "code": "B018",
+    "end_location": {
+      "column": 22,
+      "row": 746
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\sessions.py",
+    "fix": null,
+    "location": {
+      "column": 13,
+      "row": 746
+    },
+    "message": "Found useless expression. Either assign it to a variable or remove it.",
+    "noqa_row": 746,
+    "url": "https://docs.astral.sh/ruff/rules/useless-expression"
+  },
+  {
+    "cell": null,
+    "code": "B028",
+    "end_location": {
+      "column": 30,
+      "row": 162
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\utils.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": ", stacklevel=2",
+          "end_location": {
+            "column": 36,
+            "row": 171
+          },
+          "location": {
+            "column": 36,
+            "row": 171
+          }
+        }
+      ],
+      "message": "Set `stacklevel=2`"
+    },
+    "location": {
+      "column": 17,
+      "row": 162
+    },
+    "message": "No explicit `stacklevel` keyword argument found",
+    "noqa_row": 162,
+    "url": "https://docs.astral.sh/ruff/rules/no-explicit-stacklevel"
+  },
+  {
+    "cell": null,
+    "code": "B028",
+    "end_location": {
+      "column": 18,
+      "row": 494
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\utils.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": ", stacklevel=2",
+          "end_location": {
+            "column": 27,
+            "row": 500
+          },
+          "location": {
+            "column": 27,
+            "row": 500
+          }
+        }
+      ],
+      "message": "Set `stacklevel=2`"
+    },
+    "location": {
+      "column": 5,
+      "row": 494
+    },
+    "message": "No explicit `stacklevel` keyword argument found",
+    "noqa_row": 494,
+    "url": "https://docs.astral.sh/ruff/rules/no-explicit-stacklevel"
+  },
+  {
+    "cell": null,
+    "code": "B028",
+    "end_location": {
+      "column": 18,
+      "row": 603
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\utils.py",
+    "fix": {
+      "applicability": "unsafe",
+      "edits": [
+        {
+          "content": ", stacklevel=2",
+          "end_location": {
+            "column": 27,
+            "row": 609
+          },
+          "location": {
+            "column": 27,
+            "row": 609
+          }
+        }
+      ],
+      "message": "Set `stacklevel=2`"
+    },
+    "location": {
+      "column": 5,
+      "row": 603
+    },
+    "message": "No explicit `stacklevel` keyword argument found",
+    "noqa_row": 603,
+    "url": "https://docs.astral.sh/ruff/rules/no-explicit-stacklevel"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 76,
+      "row": 649
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\utils.py",
+    "fix": null,
+    "location": {
+      "column": 17,
+      "row": 649
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 649,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  },
+  {
+    "cell": null,
+    "code": "B904",
+    "end_location": {
+      "column": 14,
+      "row": 1094
+    },
+    "filename": "E:\\CODE\\software analysis and test\\experiments\\target\\requests\\src\\requests\\utils.py",
+    "fix": null,
+    "location": {
+      "column": 13,
+      "row": 1092
+    },
+    "message": "Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling",
+    "noqa_row": 1092,
+    "url": "https://docs.astral.sh/ruff/rules/raise-without-from-inside-except"
+  }
+]

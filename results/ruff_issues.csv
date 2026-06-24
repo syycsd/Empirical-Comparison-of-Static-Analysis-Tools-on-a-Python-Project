@@ -1,0 +1,326 @@
+﻿tool,rule_id,severity,file,line,column,message
+ruff,PLR2004,medium,src/requests/__init__.py,63,32,"Magic value used in comparison, consider replacing `2` with a constant variable"
+ruff,PLR2004,medium,src/requests/__init__.py,72,25,"Magic value used in comparison, consider replacing `21` with a constant variable"
+ruff,UP032,medium,src/requests/__init__.py,101,19,Use f-string instead of `format` call
+ruff,E501,medium,src/requests/__init__.py,114,89,Line too long (89 > 88)
+ruff,UP032,medium,src/requests/__init__.py,114,9,Use f-string instead of `format` call
+ruff,E402,medium,src/requests/__init__.py,143,1,Module level import not at top of file
+ruff,E402,medium,src/requests/__init__.py,148,1,Module level import not at top of file
+ruff,E402,medium,src/requests/__init__.py,149,1,Module level import not at top of file
+ruff,E402,medium,src/requests/__init__.py,151,1,Module level import not at top of file
+ruff,F401,medium,src/requests/__init__.py,151,15,"`.packages` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,151,25,"`.utils` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,E402,medium,src/requests/__init__.py,152,1,Module level import not at top of file
+ruff,F401,medium,src/requests/__init__.py,153,5,"`.__version__.__author__` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,154,5,"`.__version__.__author_email__` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,155,5,"`.__version__.__build__` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,156,5,"`.__version__.__cake__` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,157,5,"`.__version__.__copyright__` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,158,5,"`.__version__.__description__` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,159,5,"`.__version__.__license__` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,160,5,"`.__version__.__title__` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,161,5,"`.__version__.__url__` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,162,5,"`.__version__.__version__` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,E402,medium,src/requests/__init__.py,164,1,Module level import not at top of file
+ruff,F401,medium,src/requests/__init__.py,164,18,"`.api.delete` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,164,26,"`.api.get` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,164,31,"`.api.head` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,164,37,"`.api.options` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,164,46,"`.api.patch` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,164,53,"`.api.post` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,164,59,"`.api.put` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,164,64,"`.api.request` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,E402,medium,src/requests/__init__.py,165,1,Module level import not at top of file
+ruff,F401,medium,src/requests/__init__.py,166,5,"`.exceptions.ConnectionError` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,167,5,"`.exceptions.ConnectTimeout` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,169,5,"`.exceptions.HTTPError` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,170,5,"`.exceptions.JSONDecodeError` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,171,5,"`.exceptions.ReadTimeout` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,172,5,"`.exceptions.RequestException` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,173,5,"`.exceptions.Timeout` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,174,5,"`.exceptions.TooManyRedirects` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,175,5,"`.exceptions.URLRequired` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,E402,medium,src/requests/__init__.py,177,1,Module level import not at top of file
+ruff,F401,medium,src/requests/__init__.py,177,21,"`.models.PreparedRequest` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,177,38,"`.models.Request` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,177,47,"`.models.Response` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,E402,medium,src/requests/__init__.py,178,1,Module level import not at top of file
+ruff,F401,medium,src/requests/__init__.py,178,23,"`.sessions.Session` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,178,32,"`.sessions.session` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,E402,medium,src/requests/__init__.py,179,1,Module level import not at top of file
+ruff,F401,medium,src/requests/__init__.py,179,27,"`.status_codes.codes` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,SIM108,medium,src/requests/_internal_utils.py,30,5,"Use ternary operator `out = string if isinstance(string, builtin_str) else string.decode(encoding)` instead of `if`-`else`-block"
+ruff,TRY300,medium,src/requests/_internal_utils.py,48,9,Consider moving this statement to an `else` block
+ruff,N802,medium,src/requests/adapters.py,63,9,Function name `SOCKSProxyManager` should be lowercase
+ruff,EM101,medium,src/requests/adapters.py,64,29,"Exception must not use a string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/adapters.py,64,15,Avoid specifying long messages outside the exception class
+ruff,UP006,medium,src/requests/adapters.py,93,19,Use `tuple` instead of `typing.Tuple` for type annotation
+ruff,UP006,medium,src/requests/adapters.py,95,8,Use `dict` instead of `typing.Dict` for type annotation
+ruff,UP006,medium,src/requests/adapters.py,95,38,Use `dict` instead of `typing.Dict` for type annotation
+ruff,PLR2004,medium,src/requests/adapters.py,122,67,"Magic value used in comparison, consider replacing `2` with a constant variable"
+ruff,PLR0913,medium,src/requests/adapters.py,143,9,Too many arguments in function definition (6 > 5)
+ruff,FBT002,medium,src/requests/adapters.py,144,24,Boolean default positional argument in function definition
+ruff,FBT002,medium,src/requests/adapters.py,144,52,Boolean default positional argument in function definition
+ruff,E501,medium,src/requests/adapters.py,154,89,Line too long (95 > 88)
+ruff,RUF012,medium,src/requests/adapters.py,194,17,Mutable class attributes should be annotated with `typing.ClassVar`
+ruff,E501,medium,src/requests/adapters.py,274,89,Line too long (89 > 88)
+ruff,E501,medium,src/requests/adapters.py,319,89,Line too long (100 > 88)
+ruff,E501,medium,src/requests/adapters.py,321,89,Line too long (98 > 88)
+ruff,TRY003,medium,src/requests/adapters.py,328,27,Avoid specifying long messages outside the exception class
+ruff,EM102,medium,src/requests/adapters.py,329,25,"Exception must not use an f-string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/adapters.py,350,23,Avoid specifying long messages outside the exception class
+ruff,EM102,medium,src/requests/adapters.py,351,21,"Exception must not use an f-string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/adapters.py,355,23,Avoid specifying long messages outside the exception class
+ruff,EM102,medium,src/requests/adapters.py,356,21,"Exception must not use an f-string literal, assign to variable first"
+ruff,E501,medium,src/requests/adapters.py,365,89,Line too long (97 > 88)
+ruff,TRY003,medium,src/requests/adapters.py,479,23,Avoid specifying long messages outside the exception class
+ruff,EM101,medium,src/requests/adapters.py,480,21,"Exception must not use a string literal, assign to variable first"
+ruff,E501,medium,src/requests/adapters.py,504,89,Line too long (95 > 88)
+ruff,TRY003,medium,src/requests/adapters.py,522,23,Avoid specifying long messages outside the exception class
+ruff,EM101,medium,src/requests/adapters.py,523,21,"Exception must not use a string literal, assign to variable first"
+ruff,E501,medium,src/requests/adapters.py,587,89,Line too long (89 > 88)
+ruff,PIE790,medium,src/requests/adapters.py,590,9,Unnecessary `pass` statement
+ruff,PLR0912,medium,src/requests/adapters.py,613,9,Too many branches (19 > 12)
+ruff,PLR0913,medium,src/requests/adapters.py,613,9,Too many arguments in function definition (6 > 5)
+ruff,FBT002,medium,src/requests/adapters.py,614,24,Boolean default positional argument in function definition
+ruff,FBT002,medium,src/requests/adapters.py,614,52,Boolean default positional argument in function definition
+ruff,TRY003,medium,src/requests/adapters.py,657,23,Avoid specifying long messages outside the exception class
+ruff,EM102,medium,src/requests/adapters.py,658,21,"Exception must not use an f-string literal, assign to variable first"
+ruff,SIM102,medium,src/requests/adapters.py,685,13,Use a single `if` statement instead of nested `if` statements
+ruff,RET506,medium,src/requests/adapters.py,712,13,Unnecessary `elif` after `raise` statement
+ruff,E501,medium,src/requests/api.py,17,89,Line too long (139 > 88)
+ruff,E501,medium,src/requests/api.py,23,89,Line too long (106 > 88)
+ruff,E501,medium,src/requests/api.py,24,89,Line too long (92 > 88)
+ruff,E501,medium,src/requests/api.py,25,89,Line too long (90 > 88)
+ruff,E501,medium,src/requests/api.py,26,89,Line too long (133 > 88)
+ruff,E501,medium,src/requests/api.py,27,89,Line too long (116 > 88)
+ruff,E501,medium,src/requests/api.py,28,89,Line too long (116 > 88)
+ruff,E501,medium,src/requests/api.py,29,89,Line too long (123 > 88)
+ruff,E501,medium,src/requests/api.py,36,89,Line too long (136 > 88)
+ruff,E501,medium,src/requests/api.py,39,89,Line too long (91 > 88)
+ruff,E501,medium,src/requests/api.py,42,89,Line too long (96 > 88)
+ruff,E501,medium,src/requests/api.py,43,89,Line too long (107 > 88)
+ruff,E501,medium,src/requests/api.py,109,89,Line too long (106 > 88)
+ruff,E501,medium,src/requests/api.py,124,89,Line too long (106 > 88)
+ruff,E501,medium,src/requests/api.py,139,89,Line too long (106 > 88)
+ruff,UP032,medium,src/requests/auth.py,37,13,Use f-string instead of `format` call
+ruff,UP032,medium,src/requests/auth.py,47,13,Use f-string instead of `format` call
+ruff,RET504,medium,src/requests/auth.py,66,12,Unnecessary assignment to `authstr` before `return` statement
+ruff,EM101,medium,src/requests/auth.py,73,35,"Exception must not use a string literal, assign to variable first"
+ruff,PLR0912,medium,src/requests/auth.py,126,9,Too many branches (18 > 12)
+ruff,PLR0915,medium,src/requests/auth.py,126,9,Too many statements (70 > 50)
+ruff,SIM108,medium,src/requests/auth.py,138,9,"Use ternary operator `_algorithm = ""MD5"" if algorithm is None else algorithm.upper()` instead of `if`-`else`-block"
+ruff,PLR1714,medium,src/requests/auth.py,143,12,"Consider merging multiple comparisons: `_algorithm in (""MD5"", ""MD5-SESS"")`. Use a `set` if the elements are hashable."
+ruff,N806,medium,src/requests/auth.py,176,9,Variable `KD` in function should be lowercase
+ruff,N806,medium,src/requests/auth.py,189,9,Variable `A1` in function should be lowercase
+ruff,N806,medium,src/requests/auth.py,190,9,Variable `A2` in function should be lowercase
+ruff,N806,medium,src/requests/auth.py,192,9,Variable `HA1` in function should be lowercase
+ruff,N806,medium,src/requests/auth.py,193,9,Variable `HA2` in function should be lowercase
+ruff,N806,medium,src/requests/auth.py,207,13,Variable `HA1` in function should be lowercase
+ruff,PLR2004,medium,src/requests/auth.py,250,16,"Magic value used in comparison, consider replacing `400` with a constant variable"
+ruff,PLR2004,medium,src/requests/auth.py,250,39,"Magic value used in comparison, consider replacing `500` with a constant variable"
+ruff,PLR2004,medium,src/requests/auth.py,260,78,"Magic value used in comparison, consider replacing `2` with a constant variable"
+ruff,SIM105,medium,src/requests/compat.py,23,13,Use `contextlib.suppress(ImportError)` instead of `try`-`except`-`pass`
+ruff,PLR2004,medium,src/requests/compat.py,40,21,"Magic value used in comparison, consider replacing `2` with a constant variable"
+ruff,PLR2004,medium,src/requests/compat.py,43,21,"Magic value used in comparison, consider replacing `3` with a constant variable"
+ruff,F401,medium,src/requests/compat.py,52,12,`json` imported but unused
+ruff,F401,medium,src/requests/compat.py,57,22,`json.JSONDecodeError` imported but unused
+ruff,E402,medium,src/requests/compat.py,60,1,Module level import not at top of file
+ruff,F401,medium,src/requests/compat.py,60,25,`collections.OrderedDict` imported but unused
+ruff,E402,medium,src/requests/compat.py,61,1,Module level import not at top of file
+ruff,F401,medium,src/requests/compat.py,61,29,`collections.abc.Callable` imported but unused
+ruff,F401,medium,src/requests/compat.py,61,39,`collections.abc.Mapping` imported but unused
+ruff,F401,medium,src/requests/compat.py,61,48,`collections.abc.MutableMapping` imported but unused
+ruff,E402,medium,src/requests/compat.py,62,1,Module level import not at top of file
+ruff,F401,medium,src/requests/compat.py,62,31,`http.cookiejar` imported but unused
+ruff,E402,medium,src/requests/compat.py,63,1,Module level import not at top of file
+ruff,F401,medium,src/requests/compat.py,63,26,`http.cookies.Morsel` imported but unused
+ruff,E402,medium,src/requests/compat.py,64,1,Module level import not at top of file
+ruff,F401,medium,src/requests/compat.py,64,16,`io.StringIO` imported but unused
+ruff,E402,medium,src/requests/compat.py,69,1,Module level import not at top of file
+ruff,F401,medium,src/requests/compat.py,70,5,`urllib.parse.quote` imported but unused
+ruff,F401,medium,src/requests/compat.py,71,5,`urllib.parse.quote_plus` imported but unused
+ruff,F401,medium,src/requests/compat.py,72,5,`urllib.parse.unquote` imported but unused
+ruff,F401,medium,src/requests/compat.py,73,5,`urllib.parse.unquote_plus` imported but unused
+ruff,F401,medium,src/requests/compat.py,74,5,`urllib.parse.urldefrag` imported but unused
+ruff,F401,medium,src/requests/compat.py,75,5,`urllib.parse.urlencode` imported but unused
+ruff,F401,medium,src/requests/compat.py,76,5,`urllib.parse.urljoin` imported but unused
+ruff,F401,medium,src/requests/compat.py,77,5,`urllib.parse.urlparse` imported but unused
+ruff,F401,medium,src/requests/compat.py,78,5,`urllib.parse.urlsplit` imported but unused
+ruff,F401,medium,src/requests/compat.py,79,5,`urllib.parse.urlunparse` imported but unused
+ruff,E402,medium,src/requests/compat.py,81,1,Module level import not at top of file
+ruff,F401,medium,src/requests/compat.py,82,5,`urllib.request.getproxies` imported but unused
+ruff,F401,medium,src/requests/compat.py,83,5,`urllib.request.getproxies_environment` imported but unused
+ruff,F401,medium,src/requests/compat.py,84,5,`urllib.request.parse_http_list` imported but unused
+ruff,F401,medium,src/requests/compat.py,85,5,`urllib.request.proxy_bypass` imported but unused
+ruff,F401,medium,src/requests/compat.py,86,5,`urllib.request.proxy_bypass_environment` imported but unused
+ruff,PLW0127,medium,src/requests/compat.py,90,1,Self-assignment of variable `str`
+ruff,PLW0127,medium,src/requests/compat.py,91,1,Self-assignment of variable `bytes`
+ruff,E501,medium,src/requests/cookies.py,79,89,Line too long (91 > 88)
+ruff,EM101,medium,src/requests/cookies.py,81,13,"Exception must not use a string literal, assign to variable first"
+ruff,PLR1704,medium,src/requests/cookies.py,166,9,Redefining argument with the local name `domain`
+ruff,PLR1704,medium,src/requests/cookies.py,166,17,Redefining argument with the local name `path`
+ruff,PLR1704,medium,src/requests/cookies.py,166,23,Redefining argument with the local name `name`
+ruff,RET502,medium,src/requests/cookies.py,216,13,Do not implicitly `return None` in function able to return non-`None` value
+ruff,SIM102,medium,src/requests/cookies.py,379,13,Use a single `if` statement instead of nested `if` statements
+ruff,SIM102,medium,src/requests/cookies.py,380,17,Use a single `if` statement instead of nested `if` statements
+ruff,EM102,medium,src/requests/cookies.py,384,24,"Exception must not use an f-string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/cookies.py,384,15,Avoid specifying long messages outside the exception class
+ruff,N806,medium,src/requests/cookies.py,398,9,Variable `toReturn` in function should be lowercase
+ruff,SIM102,medium,src/requests/cookies.py,400,13,Use a single `if` statement instead of nested `if` statements
+ruff,SIM102,medium,src/requests/cookies.py,401,17,Use a single `if` statement instead of nested `if` statements
+ruff,TRY003,medium,src/requests/cookies.py,405,35,Avoid specifying long messages outside the exception class
+ruff,EM102,medium,src/requests/cookies.py,406,33,"Exception must not use an f-string literal, assign to variable first"
+ruff,N806,medium,src/requests/cookies.py,409,25,Variable `toReturn` in function should be lowercase
+ruff,EM102,medium,src/requests/cookies.py,413,24,"Exception must not use an f-string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/cookies.py,413,15,Avoid specifying long messages outside the exception class
+ruff,TRY003,medium,src/requests/cookies.py,479,15,Avoid specifying long messages outside the exception class
+ruff,EM102,medium,src/requests/cookies.py,480,13,"Exception must not use an f-string literal, assign to variable first"
+ruff,EM102,medium,src/requests/cookies.py,500,29,"Exception must not use an f-string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/cookies.py,500,19,Avoid specifying long messages outside the exception class
+ruff,FBT002,medium,src/requests/cookies.py,521,54,Boolean default positional argument in function definition
+ruff,EM101,medium,src/requests/cookies.py,550,26,"Exception must not use a string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/cookies.py,550,15,Avoid specifying long messages outside the exception class
+ruff,TRY004,medium,src/requests/cookies.py,550,9,Prefer `TypeError` exception for invalid type
+ruff,N818,medium,src/requests/exceptions.py,12,7,Exception name `RequestException` should be named with an Error suffix
+ruff,N818,medium,src/requests/exceptions.py,80,7,Exception name `ConnectTimeout` should be named with an Error suffix
+ruff,N818,medium,src/requests/exceptions.py,99,7,Exception name `MissingSchema` should be named with an Error suffix
+ruff,N818,medium,src/requests/exceptions.py,103,7,Exception name `InvalidSchema` should be named with an Error suffix
+ruff,N818,medium,src/requests/exceptions.py,107,7,Exception name `InvalidURL` should be named with an Error suffix
+ruff,N818,medium,src/requests/exceptions.py,111,7,Exception name `InvalidHeader` should be named with an Error suffix
+ruff,UP032,medium,src/requests/help.py,50,34,Use f-string instead of `format` call
+ruff,SIM114,medium,src/requests/help.py,59,5,Combine `if` branches using logical `or` operator
+ruff,E501,medium,src/requests/models.py,11,89,Line too long (89 > 88)
+ruff,SIM114,medium,src/requests/models.py,115,9,Combine `if` branches using logical `or` operator
+ruff,RET505,medium,src/requests/models.py,117,9,Unnecessary `elif` after `return` statement
+ruff,PLW2901,medium,src/requests/models.py,123,21,`for` loop variable `vs` overwritten by assignment target
+ruff,PERF401,medium,src/requests/models.py,126,25,Use `list.extend` to create a transformed list
+ruff,PLR0912,medium,src/requests/models.py,137,9,Too many branches (17 > 12)
+ruff,E501,medium,src/requests/models.py,143,89,Line too long (96 > 88)
+ruff,EM101,medium,src/requests/models.py,147,30,"Exception must not use a string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/models.py,147,19,Avoid specifying long messages outside the exception class
+ruff,RET506,medium,src/requests/models.py,148,9,Unnecessary `elif` after `raise` statement
+ruff,EM101,medium,src/requests/models.py,149,30,"Exception must not use a string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/models.py,149,19,Avoid specifying long messages outside the exception class
+ruff,PLW2901,medium,src/requests/models.py,157,17,`for` loop variable `val` overwritten by assignment target
+ruff,PLW2901,medium,src/requests/models.py,162,25,`for` loop variable `v` overwritten by assignment target
+ruff,PLR2004,medium,src/requests/models.py,178,30,"Magic value used in comparison, consider replacing `2` with a constant variable"
+ruff,PLR2004,medium,src/requests/models.py,180,32,"Magic value used in comparison, consider replacing `3` with a constant variable"
+ruff,EM102,medium,src/requests/models.py,211,30,"Exception must not use an f-string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/models.py,211,19,Avoid specifying long messages outside the exception class
+ruff,TRY300,medium,src/requests/models.py,225,13,Consider moving this statement to an `else` block
+ruff,E501,medium,src/requests/models.py,233,89,Line too long (94 > 88)
+ruff,E501,medium,src/requests/models.py,242,89,Line too long (96 > 88)
+ruff,PLR0913,medium,src/requests/models.py,258,9,Too many arguments in function definition (10 > 5)
+ruff,E501,medium,src/requests/models.py,296,89,Line too long (102 > 88)
+ruff,PLR0913,medium,src/requests/models.py,351,9,Too many arguments in function definition (10 > 5)
+ruff,PLR0912,medium,src/requests/models.py,409,9,Too many branches (16 > 12)
+ruff,SIM108,medium,src/requests/models.py,416,9,"Use ternary operator `url = url.decode(""utf8"") if isinstance(url, bytes) else str(url)` instead of `if`-`else`-block"
+ruff,TRY003,medium,src/requests/models.py,438,19,Avoid specifying long messages outside the exception class
+ruff,EM102,medium,src/requests/models.py,439,17,"Exception must not use an f-string literal, assign to variable first"
+ruff,EM102,medium,src/requests/models.py,444,30,"Exception must not use an f-string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/models.py,444,19,Avoid specifying long messages outside the exception class
+ruff,E501,medium,src/requests/models.py,448,89,Line too long (89 > 88)
+ruff,EM101,medium,src/requests/models.py,454,34,"Exception must not use a string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/models.py,454,23,Avoid specifying long messages outside the exception class
+ruff,EM101,medium,src/requests/models.py,456,30,"Exception must not use a string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/models.py,456,19,Avoid specifying long messages outside the exception class
+ruff,SIM108,medium,src/requests/models.py,475,13,"Use ternary operator `query = f""{query}&{enc_params}"" if query else enc_params` instead of `if`-`else`-block"
+ruff,PLR0912,medium,src/requests/models.py,494,9,Too many branches (17 > 12)
+ruff,EM101,medium,src/requests/models.py,545,21,"Exception must not use a string literal, assign to variable first"
+ruff,PLR5501,medium,src/requests/models.py,556,13,"Use `elif` instead of `else` then `if`, to reduce indentation"
+ruff,PLR2004,medium,src/requests/models.py,597,57,"Magic value used in comparison, consider replacing `2` with a constant variable"
+ruff,RUF012,medium,src/requests/models.py,645,17,Mutable class attributes should be annotated with `typing.ClassVar`
+ruff,E501,medium,src/requests/models.py,786,89,Line too long (98 > 88)
+ruff,E501,medium,src/requests/models.py,791,89,Line too long (93 > 88)
+ruff,RET505,medium,src/requests/models.py,794,9,Unnecessary `else` after `return` statement
+ruff,FBT002,medium,src/requests/models.py,799,42,Boolean default positional argument in function definition
+ruff,RET506,medium,src/requests/models.py,841,9,Unnecessary `elif` after `raise` statement
+ruff,TRY003,medium,src/requests/models.py,842,19,Avoid specifying long messages outside the exception class
+ruff,EM102,medium,src/requests/models.py,843,17,"Exception must not use an f-string literal, assign to variable first"
+ruff,FBT002,medium,src/requests/models.py,858,43,Boolean default positional argument in function definition
+ruff,PLW2901,medium,src/requests/models.py,873,17,`for` loop variable `chunk` overwritten by assignment target
+ruff,SIM108,medium,src/requests/models.py,875,13,Use ternary operator `lines = chunk.split(delimiter) if delimiter else chunk.splitlines()` instead of `if`-`else`-block
+ruff,EM101,medium,src/requests/models.py,897,36,"Exception must not use a string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/models.py,897,23,Avoid specifying long messages outside the exception class
+ruff,PLR2004,medium,src/requests/models.py,955,71,"Magic value used in comparison, consider replacing `3` with a constant variable"
+ruff,PLR2004,medium,src/requests/models.py,1013,12,"Magic value used in comparison, consider replacing `400` with a constant variable"
+ruff,PLR2004,medium,src/requests/models.py,1013,38,"Magic value used in comparison, consider replacing `500` with a constant variable"
+ruff,PLR2004,medium,src/requests/models.py,1018,14,"Magic value used in comparison, consider replacing `500` with a constant variable"
+ruff,PLR2004,medium,src/requests/models.py,1018,40,"Magic value used in comparison, consider replacing `600` with a constant variable"
+ruff,PLW2901,medium,src/requests/packages.py,22,13,`for` loop variable `mod` overwritten by assignment target
+ruff,PLR0912,medium,src/requests/sessions.py,159,9,Too many branches (13 > 12)
+ruff,PLR0913,medium,src/requests/sessions.py,159,9,Too many arguments in function definition (8 > 5)
+ruff,PLR0915,medium,src/requests/sessions.py,159,9,Too many statements (52 > 50)
+ruff,FBT002,medium,src/requests/sessions.py,163,9,Boolean default positional argument in function definition
+ruff,FBT002,medium,src/requests/sessions.py,165,9,Boolean default positional argument in function definition
+ruff,FBT002,medium,src/requests/sessions.py,168,9,Boolean default positional argument in function definition
+ruff,TRY003,medium,src/requests/sessions.py,191,23,Avoid specifying long messages outside the exception class
+ruff,EM102,medium,src/requests/sessions.py,192,21,"Exception must not use an f-string literal, assign to variable first"
+ruff,RUF012,medium,src/requests/sessions.py,375,17,Mutable class attributes should be annotated with `typing.ClassVar`
+ruff,PLR0913,medium,src/requests/sessions.py,500,9,Too many arguments in function definition (16 > 5)
+ruff,FBT002,medium,src/requests/sessions.py,511,9,Boolean default positional argument in function definition
+ruff,E501,medium,src/requests/sessions.py,550,89,Line too long (95 > 88)
+ruff,RET504,medium,src/requests/sessions.py,591,16,Unnecessary assignment to `resp` before `return` statement
+ruff,EM101,medium,src/requests/sessions.py,689,30,"Exception must not use a string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/sessions.py,689,19,Avoid specifying long messages outside the exception class
+ruff,TRY004,medium,src/requests/sessions.py,689,13,Prefer `TypeError` exception for invalid type
+ruff,E501,medium,src/requests/sessions.py,736,89,Line too long (100 > 88)
+ruff,SIM105,medium,src/requests/sessions.py,738,13,Use `contextlib.suppress(StopIteration)` instead of `try`-`except`-`pass`
+ruff,EM102,medium,src/requests/sessions.py,792,29,"Exception must not use an f-string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/sessions.py,792,15,Avoid specifying long messages outside the exception class
+ruff,RET504,medium,src/requests/sessions.py,812,16,Unnecessary assignment to `state` before `return` statement
+ruff,UP031,medium,src/requests/status_codes.py,118,16,Use format specifiers instead of percent format
+ruff,PLW0603,medium,src/requests/status_codes.py,120,12,Using the global statement to update `__doc__` is discouraged
+ruff,N806,medium,src/requests/utils.py,83,13,Variable `internetSettings` in function should be lowercase
+ruff,N806,medium,src/requests/utils.py,88,13,Variable `proxyEnable` in function should be lowercase
+ruff,N806,medium,src/requests/utils.py,90,13,Variable `proxyOverride` in function should be lowercase
+ruff,N806,medium,src/requests/utils.py,99,9,Variable `proxyOverride` in function should be lowercase
+ruff,N806,medium,src/requests/utils.py,101,9,Variable `proxyOverride` in function should be lowercase
+ruff,SIM102,medium,src/requests/utils.py,104,13,Use a single `if` statement instead of nested `if` statements
+ruff,PLW2901,medium,src/requests/utils.py,107,13,`for` loop variable `test` overwritten by assignment target
+ruff,PLW2901,medium,src/requests/utils.py,108,13,`for` loop variable `test` overwritten by assignment target
+ruff,PLW2901,medium,src/requests/utils.py,109,13,`for` loop variable `test` overwritten by assignment target
+ruff,RUF100,medium,src/requests/utils.py,114,30,Unused blanket `noqa` directive
+ruff,RET505,medium,src/requests/utils.py,122,9,Unnecessary `else` after `return` statement
+ruff,PLR0912,medium,src/requests/utils.py,135,5,Too many branches (14 > 12)
+ruff,FBT002,medium,src/requests/utils.py,204,25,Boolean default positional argument in function definition
+ruff,RET502,medium,src/requests/utils.py,225,17,Do not implicitly `return None` in function able to return non-`None` value
+ruff,RET502,medium,src/requests/utils.py,233,13,Do not implicitly `return None` in function able to return non-`None` value
+ruff,RET503,medium,src/requests/utils.py,264,5,Missing explicit `return` at the end of function able to return non-`None` value
+ruff,E501,medium,src/requests/utils.py,283,89,Line too long (128 > 88)
+ruff,E501,medium,src/requests/utils.py,284,89,Line too long (105 > 88)
+ruff,E501,medium,src/requests/utils.py,299,89,Line too long (117 > 88)
+ruff,EM101,medium,src/requests/utils.py,340,26,"Exception must not use a string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/utils.py,340,15,Avoid specifying long messages outside the exception class
+ruff,TRY004,medium,src/requests/utils.py,340,9,Prefer `TypeError` exception for invalid type
+ruff,EM101,medium,src/requests/utils.py,366,26,"Exception must not use a string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/utils.py,366,15,Avoid specifying long messages outside the exception class
+ruff,TRY004,medium,src/requests/utils.py,366,9,Prefer `TypeError` exception for invalid type
+ruff,PLW2901,medium,src/requests/utils.py,401,13,`for` loop variable `item` overwritten by assignment target
+ruff,FBT002,medium,src/requests/utils.py,442,33,Boolean default positional argument in function definition
+ruff,RET504,medium,src/requests/utils.py,475,12,Unnecessary assignment to `cookie_dict` before `return` statement
+ruff,PLW2901,medium,src/requests/utils.py,528,9,`for` loop variable `param` overwritten by assignment target
+ruff,RET503,medium,src/requests/utils.py,559,5,Missing explicit `return` at the end of function able to return non-`None` value
+ruff,E501,medium,src/requests/utils.py,560,89,Line too long (106 > 88)
+ruff,PLR2004,medium,src/requests/utils.py,645,22,"Magic value used in comparison, consider replacing `2` with a constant variable"
+ruff,EM102,medium,src/requests/utils.py,649,34,"Exception must not use an f-string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/utils.py,649,23,Avoid specifying long messages outside the exception class
+ruff,PLR2004,medium,src/requests/utils.py,731,31,"Magic value used in comparison, consider replacing `32` with a constant variable"
+ruff,PLR0912,medium,src/requests/utils.py,765,5,Too many branches (14 > 12)
+ruff,E501,medium,src/requests/utils.py,799,89,Line too long (96 > 88)
+ruff,SIM103,medium,src/requests/utils.py,820,5,Return the condition `bool(bypass)` directly
+ruff,RET505,medium,src/requests/utils.py,834,5,Unnecessary `else` after `return` statement
+ruff,FBT002,medium,src/requests/utils.py,864,39,Boolean default positional argument in function definition
+ruff,E501,medium,src/requests/utils.py,917,89,Line too long (118 > 88)
+ruff,PLR0911,medium,src/requests/utils.py,957,5,Too many return statements (9 > 6)
+ruff,PLR2004,medium,src/requests/utils.py,974,21,"Magic value used in comparison, consider replacing `2` with a constant variable"
+ruff,PLR2004,medium,src/requests/utils.py,980,21,"Magic value used in comparison, consider replacing `3` with a constant variable"
+ruff,TRY003,medium,src/requests/utils.py,1051,15,Avoid specifying long messages outside the exception class
+ruff,EM102,medium,src/requests/utils.py,1052,13,"Exception must not use an f-string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/utils.py,1058,15,Avoid specifying long messages outside the exception class
+ruff,EM102,medium,src/requests/utils.py,1059,13,"Exception must not use an f-string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/utils.py,1092,19,Avoid specifying long messages outside the exception class
+ruff,EM101,medium,src/requests/utils.py,1093,17,"Exception must not use a string literal, assign to variable first"
+ruff,EM101,medium,src/requests/utils.py,1096,37,"Exception must not use a string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/utils.py,1096,15,Avoid specifying long messages outside the exception class

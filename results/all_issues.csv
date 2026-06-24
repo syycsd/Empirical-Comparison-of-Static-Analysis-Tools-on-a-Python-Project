@@ -1,0 +1,648 @@
+﻿tool,rule_id,severity,file,line,column,message
+pylint,missing-function-docstring,low,target/requests/src/requests/__init__.py,58,,Missing function or method docstring
+pylint,redefined-outer-name,medium,target/requests/src/requests/__init__.py,58,41,Redefining name 'chardet_version' from outer scope (line 53)
+pylint,redefined-outer-name,medium,target/requests/src/requests/__init__.py,58,58,Redefining name 'charset_normalizer_version' from outer scope (line 48)
+pylint,redefined-outer-name,medium,target/requests/src/requests/__init__.py,67,18,Redefining name 'patch' from outer scope (line 164)
+pylint,redefined-outer-name,medium,target/requests/src/requests/__init__.py,93,24,Redefining name 'cryptography_version' from outer scope (line 136)
+pylint,consider-using-f-string,low,target/requests/src/requests/__init__.py,101,18,Formatting a regular string which could be an f-string
+pylint,consider-using-f-string,low,target/requests/src/requests/__init__.py,114,8,Formatting a regular string which could be an f-string
+pylint,ungrouped-imports,low,target/requests/src/requests/__init__.py,143,,Imports from package urllib3 are not grouped
+pylint,wrong-import-order,low,target/requests/src/requests/__init__.py,143,,"third party import ""urllib3.exceptions.DependencyWarning"" should be placed before local import ""exceptions.RequestsDependencyWarning"""
+pylint,wrong-import-position,low,target/requests/src/requests/__init__.py,143,,"Import ""from urllib3.exceptions import DependencyWarning"" should be placed at the top of the module"
+pylint,wrong-import-order,low,target/requests/src/requests/__init__.py,148,,"standard import ""logging"" should be placed before third party imports ""urllib3"", ""urllib3.exceptions.DependencyWarning"" and local import ""exceptions.RequestsDependencyWarning"""
+pylint,wrong-import-position,low,target/requests/src/requests/__init__.py,148,,"Import ""import logging"" should be placed at the top of the module"
+pylint,wrong-import-order,low,target/requests/src/requests/__init__.py,149,,"standard import ""logging.NullHandler"" should be placed before third party imports ""urllib3"", ""urllib3.exceptions.DependencyWarning"" and local import ""exceptions.RequestsDependencyWarning"""
+pylint,wrong-import-position,low,target/requests/src/requests/__init__.py,149,,"Import ""from logging import NullHandler"" should be placed at the top of the module"
+pylint,wrong-import-position,low,target/requests/src/requests/__init__.py,151,,"Import ""from . import packages, utils"" should be placed at the top of the module"
+pylint,wrong-import-position,low,target/requests/src/requests/__init__.py,152,,"Import ""from .__version__ import __author__, __author_email__, __build__, __cake__, __copyright__, __description__, __license__, __title__, __url__, __version__"" should be placed at the top of the module"
+pylint,wrong-import-position,low,target/requests/src/requests/__init__.py,164,,"Import ""from .api import delete, get, head, options, patch, post, put, request"" should be placed at the top of the module"
+pylint,redefined-builtin,medium,target/requests/src/requests/__init__.py,165,,Redefining built-in 'ConnectionError'
+pylint,wrong-import-position,low,target/requests/src/requests/__init__.py,165,,"Import ""from .exceptions import ConnectionError, ConnectTimeout, FileModeWarning, HTTPError, JSONDecodeError, ReadTimeout, RequestException, Timeout, TooManyRedirects, URLRequired"" should be placed at the top of the module"
+pylint,wrong-import-position,low,target/requests/src/requests/__init__.py,177,,"Import ""from .models import PreparedRequest, Request, Response"" should be placed at the top of the module"
+pylint,wrong-import-position,low,target/requests/src/requests/__init__.py,178,,"Import ""from .sessions import Session, session"" should be placed at the top of the module"
+pylint,wrong-import-position,low,target/requests/src/requests/__init__.py,179,,"Import ""from .status_codes import codes"" should be placed at the top of the module"
+pylint,duplicate-code,low,target/requests/src/requests/__version__.py,1,,"Similar lines in 2 files ==requests.adapters:[642:647] ==requests.sessions:[266:271]             stream=stream,             timeout=timeout,             verify=verify,             cert=cert,             proxies=proxies,"
+pylint,missing-module-docstring,low,target/requests/src/requests/__version__.py,1,,Missing module docstring
+pylint,unused-import,medium,target/requests/src/requests/adapters.py,10,,Unused import socket
+pylint,redefined-builtin,medium,target/requests/src/requests/adapters.py,35,,Redefining built-in 'ConnectionError'
+pylint,invalid-name,low,target/requests/src/requests/adapters.py,63,4,"Function name ""SOCKSProxyManager"" doesn't conform to snake_case naming style"
+pylint,missing-function-docstring,low,target/requests/src/requests/adapters.py,63,4,Missing function or method docstring
+pylint,unused-import,medium,target/requests/src/requests/adapters.py,78,4,Unused import ssl
+pylint,invalid-name,low,target/requests/src/requests/adapters.py,87,4,"Constant name ""_preloaded_ssl_context"" doesn't conform to UPPER_CASE naming style"
+pylint,useless-parent-delegation,medium,target/requests/src/requests/adapters.py,140,4,Useless parent or super() delegation in method '__init__'
+pylint,too-many-arguments,low,target/requests/src/requests/adapters.py,143,4,Too many arguments (7/5)
+pylint,too-many-positional-arguments,low,target/requests/src/requests/adapters.py,143,4,Too many positional arguments (7/5)
+pylint,raise-missing-from,medium,target/requests/src/requests/adapters.py,474,12,"Consider explicitly re-raising using 'raise InvalidURL(e, request=request) from e'"
+pylint,unnecessary-pass,medium,target/requests/src/requests/adapters.py,590,8,Unnecessary pass statement
+pylint,too-many-arguments,low,target/requests/src/requests/adapters.py,613,4,Too many arguments (7/5)
+pylint,too-many-branches,low,target/requests/src/requests/adapters.py,613,4,Too many branches (19/12)
+pylint,too-many-positional-arguments,low,target/requests/src/requests/adapters.py,613,4,Too many positional arguments (7/5)
+pylint,too-many-statements,low,target/requests/src/requests/adapters.py,613,4,Too many statements (51/50)
+pylint,raise-missing-from,medium,target/requests/src/requests/adapters.py,637,12,"Consider explicitly re-raising using 'raise InvalidURL(e, request=request) from e'"
+pylint,raise-missing-from,medium,target/requests/src/requests/adapters.py,657,16,"Consider explicitly re-raising using 'except ValueError as exc' and 'raise ValueError(f'Invalid timeout {timeout}. Pass a (connect, read) timeout tuple, or a single float to set both timeouts to the same value.') from exc'"
+pylint,raise-missing-from,medium,target/requests/src/requests/adapters.py,682,12,"Consider explicitly re-raising using 'raise ConnectionError(err, request=request) from err'"
+pylint,fixme,medium,target/requests/src/requests/adapters.py,686,17,TODO: Remove this in 3.0.0: see #2811
+pylint,raise-missing-from,medium,target/requests/src/requests/adapters.py,688,20,"Consider explicitly re-raising using 'raise ConnectTimeout(e, request=request) from e'"
+pylint,raise-missing-from,medium,target/requests/src/requests/adapters.py,691,16,"Consider explicitly re-raising using 'raise RetryError(e, request=request) from e'"
+pylint,raise-missing-from,medium,target/requests/src/requests/adapters.py,694,16,"Consider explicitly re-raising using 'raise ProxyError(e, request=request) from e'"
+pylint,raise-missing-from,medium,target/requests/src/requests/adapters.py,698,16,"Consider explicitly re-raising using 'raise SSLError(e, request=request) from e'"
+pylint,raise-missing-from,medium,target/requests/src/requests/adapters.py,700,12,"Consider explicitly re-raising using 'raise ConnectionError(e, request=request) from e'"
+pylint,raise-missing-from,medium,target/requests/src/requests/adapters.py,703,12,"Consider explicitly re-raising using 'raise ConnectionError(e, request=request) from e'"
+pylint,raise-missing-from,medium,target/requests/src/requests/adapters.py,706,12,Consider explicitly re-raising using 'raise ProxyError(e) from e'
+pylint,no-else-raise,low,target/requests/src/requests/adapters.py,709,12,"Unnecessary ""elif"" after ""raise"", remove the leading ""el"" from ""elif"""
+pylint,raise-missing-from,medium,target/requests/src/requests/adapters.py,711,16,"Consider explicitly re-raising using 'raise SSLError(e, request=request) from e'"
+pylint,raise-missing-from,medium,target/requests/src/requests/adapters.py,713,16,"Consider explicitly re-raising using 'raise ReadTimeout(e, request=request) from e'"
+pylint,raise-missing-from,medium,target/requests/src/requests/adapters.py,715,16,"Consider explicitly re-raising using 'raise InvalidHeader(e, request=request) from e'"
+pylint,line-too-long,low,target/requests/src/requests/api.py,17,,Line too long (139/100)
+pylint,line-too-long,low,target/requests/src/requests/api.py,23,,Line too long (106/100)
+pylint,line-too-long,low,target/requests/src/requests/api.py,26,,Line too long (133/100)
+pylint,line-too-long,low,target/requests/src/requests/api.py,27,,Line too long (116/100)
+pylint,line-too-long,low,target/requests/src/requests/api.py,28,,Line too long (116/100)
+pylint,line-too-long,low,target/requests/src/requests/api.py,29,,Line too long (123/100)
+pylint,line-too-long,low,target/requests/src/requests/api.py,36,,Line too long (136/100)
+pylint,line-too-long,low,target/requests/src/requests/api.py,43,,Line too long (107/100)
+pylint,missing-timeout,medium,target/requests/src/requests/api.py,73,11,Missing timeout argument for method 'request' can cause your program to hang indefinitely
+pylint,missing-timeout,medium,target/requests/src/requests/api.py,85,11,Missing timeout argument for method 'request' can cause your program to hang indefinitely
+pylint,missing-timeout,medium,target/requests/src/requests/api.py,100,11,Missing timeout argument for method 'request' can cause your program to hang indefinitely
+pylint,line-too-long,low,target/requests/src/requests/api.py,109,,Line too long (106/100)
+pylint,missing-timeout,medium,target/requests/src/requests/api.py,115,11,Missing timeout argument for method 'request' can cause your program to hang indefinitely
+pylint,line-too-long,low,target/requests/src/requests/api.py,124,,Line too long (106/100)
+pylint,missing-timeout,medium,target/requests/src/requests/api.py,130,11,Missing timeout argument for method 'request' can cause your program to hang indefinitely
+pylint,line-too-long,low,target/requests/src/requests/api.py,139,,Line too long (106/100)
+pylint,missing-timeout,medium,target/requests/src/requests/api.py,145,11,Missing timeout argument for method 'request' can cause your program to hang indefinitely
+pylint,missing-timeout,medium,target/requests/src/requests/api.py,157,11,Missing timeout argument for method 'request' can cause your program to hang indefinitely
+pylint,redefined-builtin,medium,target/requests/src/requests/auth.py,17,,Redefining built-in 'str'
+pylint,consider-using-f-string,low,target/requests/src/requests/auth.py,37,12,Formatting a regular string which could be an f-string
+pylint,consider-using-f-string,low,target/requests/src/requests/auth.py,47,12,Formatting a regular string which could be an f-string
+pylint,too-few-public-methods,low,target/requests/src/requests/auth.py,69,,Too few public methods (1/2)
+pylint,too-few-public-methods,low,target/requests/src/requests/auth.py,99,,Too few public methods (1/2)
+pylint,missing-function-docstring,low,target/requests/src/requests/auth.py,116,4,Missing function or method docstring
+pylint,too-many-branches,low,target/requests/src/requests/auth.py,126,4,Too many branches (18/12)
+pylint,too-many-locals,low,target/requests/src/requests/auth.py,126,4,Too many local variables (28/15)
+pylint,too-many-statements,low,target/requests/src/requests/auth.py,126,4,Too many statements (66/50)
+pylint,consider-using-in,low,target/requests/src/requests/auth.py,143,11,"Consider merging these comparisons with 'in' by using '_algorithm in ('MD5', 'MD5-SESS')'. Use a set instead if elements are hashable."
+pylint,invalid-name,low,target/requests/src/requests/auth.py,176,8,"Variable name ""KD"" doesn't conform to snake_case naming style"
+pylint,unnecessary-lambda-assignment,low,target/requests/src/requests/auth.py,176,13,"Lambda expression assigned to a variable. Define a function using the ""def"" keyword instead."
+pylint,fixme,medium,target/requests/src/requests/auth.py,181,9,XXX not implemented yet
+pylint,invalid-name,low,target/requests/src/requests/auth.py,189,8,"Variable name ""A1"" doesn't conform to snake_case naming style"
+pylint,invalid-name,low,target/requests/src/requests/auth.py,190,8,"Variable name ""A2"" doesn't conform to snake_case naming style"
+pylint,invalid-name,low,target/requests/src/requests/auth.py,192,8,"Variable name ""HA1"" doesn't conform to snake_case naming style"
+pylint,invalid-name,low,target/requests/src/requests/auth.py,193,8,"Variable name ""HA2"" doesn't conform to snake_case naming style"
+pylint,invalid-name,low,target/requests/src/requests/auth.py,207,12,"Variable name ""HA1"" doesn't conform to snake_case naming style"
+pylint,fixme,medium,target/requests/src/requests/auth.py,215,13,XXX handle auth-int.
+pylint,fixme,medium,target/requests/src/requests/auth.py,220,9,XXX should the partial digests be encoded too?
+pylint,unused-argument,medium,target/requests/src/requests/auth.py,236,,Unused argument 'kwargs'
+pylint,pointless-statement,medium,target/requests/src/requests/auth.py,267,12,Statement seems to have no effect
+pylint,protected-access,medium,target/requests/src/requests/auth.py,270,35,Access to a protected member _cookies of a client class
+pylint,protected-access,medium,target/requests/src/requests/auth.py,271,33,Access to a protected member _cookies of a client class
+pylint,redefined-outer-name,medium,target/requests/src/requests/compat.py,20,4,Redefining name 'chardet' from outer scope (line 30)
+pylint,invalid-name,low,target/requests/src/requests/compat.py,46,,"Constant name ""has_simplejson"" doesn't conform to UPPER_CASE naming style"
+pylint,unused-import,medium,target/requests/src/requests/compat.py,48,4,Unused simplejson imported as json
+pylint,invalid-name,low,target/requests/src/requests/compat.py,50,4,"Constant name ""has_simplejson"" doesn't conform to UPPER_CASE naming style"
+pylint,unused-import,medium,target/requests/src/requests/compat.py,52,4,Unused import json
+pylint,unused-import,medium,target/requests/src/requests/compat.py,55,4,Unused JSONDecodeError imported from simplejson
+pylint,unused-import,medium,target/requests/src/requests/compat.py,60,,Unused OrderedDict imported from collections
+pylint,wrong-import-position,low,target/requests/src/requests/compat.py,60,,"Import ""from collections import OrderedDict"" should be placed at the top of the module"
+pylint,unused-import,medium,target/requests/src/requests/compat.py,61,,Unused Callable imported from collections.abc
+pylint,unused-import,medium,target/requests/src/requests/compat.py,61,,Unused Mapping imported from collections.abc
+pylint,unused-import,medium,target/requests/src/requests/compat.py,61,,Unused MutableMapping imported from collections.abc
+pylint,wrong-import-position,low,target/requests/src/requests/compat.py,61,,"Import ""from collections.abc import Callable, Mapping, MutableMapping"" should be placed at the top of the module"
+pylint,unused-import,medium,target/requests/src/requests/compat.py,62,,Unused cookiejar imported from http as cookielib
+pylint,wrong-import-position,low,target/requests/src/requests/compat.py,62,,"Import ""from http import cookiejar as cookielib"" should be placed at the top of the module"
+pylint,unused-import,medium,target/requests/src/requests/compat.py,63,,Unused Morsel imported from http.cookies
+pylint,wrong-import-position,low,target/requests/src/requests/compat.py,63,,"Import ""from http.cookies import Morsel"" should be placed at the top of the module"
+pylint,unused-import,medium,target/requests/src/requests/compat.py,64,,Unused StringIO imported from io
+pylint,wrong-import-position,low,target/requests/src/requests/compat.py,64,,"Import ""from io import StringIO"" should be placed at the top of the module"
+pylint,unused-import,medium,target/requests/src/requests/compat.py,69,,Unused quote imported from urllib.parse
+pylint,unused-import,medium,target/requests/src/requests/compat.py,69,,Unused quote_plus imported from urllib.parse
+pylint,unused-import,medium,target/requests/src/requests/compat.py,69,,Unused unquote imported from urllib.parse
+pylint,unused-import,medium,target/requests/src/requests/compat.py,69,,Unused unquote_plus imported from urllib.parse
+pylint,unused-import,medium,target/requests/src/requests/compat.py,69,,Unused urldefrag imported from urllib.parse
+pylint,unused-import,medium,target/requests/src/requests/compat.py,69,,Unused urlencode imported from urllib.parse
+pylint,unused-import,medium,target/requests/src/requests/compat.py,69,,Unused urljoin imported from urllib.parse
+pylint,unused-import,medium,target/requests/src/requests/compat.py,69,,Unused urlparse imported from urllib.parse
+pylint,unused-import,medium,target/requests/src/requests/compat.py,69,,Unused urlsplit imported from urllib.parse
+pylint,unused-import,medium,target/requests/src/requests/compat.py,69,,Unused urlunparse imported from urllib.parse
+pylint,wrong-import-position,low,target/requests/src/requests/compat.py,69,,"Import ""from urllib.parse import quote, quote_plus, unquote, unquote_plus, urldefrag, urlencode, urljoin, urlparse, urlsplit, urlunparse"" should be placed at the top of the module"
+pylint,unused-import,medium,target/requests/src/requests/compat.py,81,,Unused getproxies imported from urllib.request
+pylint,unused-import,medium,target/requests/src/requests/compat.py,81,,Unused getproxies_environment imported from urllib.request
+pylint,unused-import,medium,target/requests/src/requests/compat.py,81,,Unused parse_http_list imported from urllib.request
+pylint,unused-import,medium,target/requests/src/requests/compat.py,81,,Unused proxy_bypass imported from urllib.request
+pylint,unused-import,medium,target/requests/src/requests/compat.py,81,,Unused proxy_bypass_environment imported from urllib.request
+pylint,wrong-import-position,low,target/requests/src/requests/compat.py,81,,"Import ""from urllib.request import getproxies, getproxies_environment, parse_http_list, proxy_bypass, proxy_bypass_environment"" should be placed at the top of the module"
+pylint,invalid-name,low,target/requests/src/requests/compat.py,89,,"Class name ""builtin_str"" doesn't conform to PascalCase naming style"
+pylint,invalid-name,low,target/requests/src/requests/compat.py,90,,"Class name ""str"" doesn't conform to PascalCase naming style"
+pylint,redefined-builtin,medium,target/requests/src/requests/compat.py,90,,Redefining built-in 'str'
+pylint,self-assigning-variable,medium,target/requests/src/requests/compat.py,90,,Assigning the same variable 'str' to itself
+pylint,invalid-name,low,target/requests/src/requests/compat.py,91,,"Class name ""bytes"" doesn't conform to PascalCase naming style"
+pylint,redefined-builtin,medium,target/requests/src/requests/compat.py,91,,Redefining built-in 'bytes'
+pylint,self-assigning-variable,medium,target/requests/src/requests/compat.py,91,,Assigning the same variable 'bytes' to itself
+pylint,missing-function-docstring,low,target/requests/src/requests/cookies.py,40,4,Missing function or method docstring
+pylint,missing-function-docstring,low,target/requests/src/requests/cookies.py,43,4,Missing function or method docstring
+pylint,missing-function-docstring,low,target/requests/src/requests/cookies.py,46,4,Missing function or method docstring
+pylint,missing-function-docstring,low,target/requests/src/requests/cookies.py,49,4,Missing function or method docstring
+pylint,missing-function-docstring,low,target/requests/src/requests/cookies.py,69,4,Missing function or method docstring
+pylint,missing-function-docstring,low,target/requests/src/requests/cookies.py,72,4,Missing function or method docstring
+pylint,missing-function-docstring,low,target/requests/src/requests/cookies.py,75,4,Missing function or method docstring
+pylint,missing-function-docstring,low,target/requests/src/requests/cookies.py,84,4,Missing function or method docstring
+pylint,missing-function-docstring,low,target/requests/src/requests/cookies.py,87,4,Missing function or method docstring
+pylint,missing-function-docstring,low,target/requests/src/requests/cookies.py,91,4,Missing function or method docstring
+pylint,missing-function-docstring,low,target/requests/src/requests/cookies.py,95,4,Missing function or method docstring
+pylint,missing-function-docstring,low,target/requests/src/requests/cookies.py,99,4,Missing function or method docstring
+pylint,missing-function-docstring,low,target/requests/src/requests/cookies.py,117,4,Missing function or method docstring
+pylint,missing-function-docstring,low,target/requests/src/requests/cookies.py,120,4,Missing function or method docstring
+pylint,protected-access,medium,target/requests/src/requests/cookies.py,131,56,Access to a protected member _original_response of a client class
+pylint,protected-access,medium,target/requests/src/requests/cookies.py,136,23,Access to a protected member _original_response of a client class
+pylint,redefined-argument-from-local,low,target/requests/src/requests/cookies.py,166,8,Redefining argument with the local name 'domain'
+pylint,redefined-argument-from-local,low,target/requests/src/requests/cookies.py,166,16,Redefining argument with the local name 'path'
+pylint,redefined-argument-from-local,low,target/requests/src/requests/cookies.py,166,22,Redefining argument with the local name 'name'
+pylint,arguments-renamed,medium,target/requests/src/requests/cookies.py,194,4,Parameter 'key' has been renamed to 'name' in overriding 'RequestsCookieJar.get' method
+pylint,inconsistent-return-statements,low,target/requests/src/requests/cookies.py,206,4,"Either all return statements in a function should return an expression, or none of them should."
+pylint,arguments-differ,medium,target/requests/src/requests/cookies.py,358,4,Number of parameters was 1 in 'MutableMapping.update' and is now 2 in overriding 'RequestsCookieJar.update' method
+pylint,arguments-differ,medium,target/requests/src/requests/cookies.py,358,4,Variadics removed in overriding 'RequestsCookieJar.update' method
+pylint,invalid-name,low,target/requests/src/requests/cookies.py,398,8,"Variable name ""toReturn"" doesn't conform to snake_case naming style"
+pylint,invalid-name,low,target/requests/src/requests/cookies.py,409,24,"Variable name ""toReturn"" doesn't conform to snake_case naming style"
+pylint,raise-missing-from,medium,target/requests/src/requests/cookies.py,500,12,"Consider explicitly re-raising using 'except ValueError as exc' and 'raise TypeError(f""max-age: {morsel['max-age']} must be integer"") from exc'"
+pylint,redefined-builtin,medium,target/requests/src/requests/exceptions.py,59,,Redefining built-in 'ConnectionError'
+pylint,consider-using-f-string,low,target/requests/src/requests/help.py,50,33,Formatting a regular string which could be an f-string
+pylint,missing-function-docstring,low,target/requests/src/requests/hooks.py,15,,Missing function or method docstring
+pylint,fixme,medium,target/requests/src/requests/hooks.py,19,1,TODO: response is the only one
+pylint,too-many-lines,low,target/requests/src/requests/models.py,1,,Too many lines in module (1037/1000)
+pylint,unused-import,medium,target/requests/src/requests/models.py,13,,Unused import encodings.idna
+pylint,redefined-builtin,medium,target/requests/src/requests/models.py,41,,Redefining built-in 'ConnectionError'
+pylint,missing-class-docstring,low,target/requests/src/requests/models.py,84,,Missing class docstring
+pylint,too-few-public-methods,low,target/requests/src/requests/models.py,84,,Too few public methods (1/2)
+pylint,no-else-return,low,target/requests/src/requests/models.py,115,8,"Unnecessary ""elif"" after ""return"", remove the leading ""el"" from ""elif"""
+pylint,too-many-branches,low,target/requests/src/requests/models.py,137,4,Too many branches (17/12)
+pylint,too-many-locals,low,target/requests/src/requests/models.py,137,4,Too many local variables (16/15)
+pylint,no-else-raise,low,target/requests/src/requests/models.py,146,8,"Unnecessary ""elif"" after ""raise"", remove the leading ""el"" from ""elif"""
+pylint,missing-class-docstring,low,target/requests/src/requests/models.py,206,,Missing class docstring
+pylint,too-many-instance-attributes,low,target/requests/src/requests/models.py,230,,Too many instance attributes (10/7)
+pylint,too-many-arguments,low,target/requests/src/requests/models.py,258,4,Too many arguments (11/5)
+pylint,too-many-positional-arguments,low,target/requests/src/requests/models.py,258,4,Too many positional arguments (11/5)
+pylint,line-too-long,low,target/requests/src/requests/models.py,296,,Line too long (102/100)
+pylint,too-many-arguments,low,target/requests/src/requests/models.py,351,4,Too many arguments (11/5)
+pylint,too-many-positional-arguments,low,target/requests/src/requests/models.py,351,4,Too many positional arguments (11/5)
+pylint,missing-function-docstring,low,target/requests/src/requests/models.py,382,4,Missing function or method docstring
+pylint,protected-access,medium,target/requests/src/requests/models.py,387,8,Access to a protected member _cookies of a client class
+pylint,protected-access,medium,target/requests/src/requests/models.py,390,8,Access to a protected member _body_position of a client class
+pylint,import-outside-toplevel,low,target/requests/src/requests/models.py,401,8,Import outside toplevel (idna)
+pylint,raise-missing-from,medium,target/requests/src/requests/models.py,406,12,Consider explicitly re-raising using 'except Exception as exc' and 'raise UnicodeError from exc'
+pylint,too-many-branches,low,target/requests/src/requests/models.py,409,4,Too many branches (16/12)
+pylint,raise-missing-from,medium,target/requests/src/requests/models.py,435,12,Consider explicitly re-raising using 'raise InvalidURL(*e.args) from e'
+pylint,raise-missing-from,medium,target/requests/src/requests/models.py,454,16,Consider explicitly re-raising using 'except UnicodeError as exc' and 'raise InvalidURL('URL has an invalid label.') from exc'
+pylint,too-many-branches,low,target/requests/src/requests/models.py,494,4,Too many branches (16/12)
+pylint,raise-missing-from,medium,target/requests/src/requests/models.py,512,16,"Consider explicitly re-raising using 'raise InvalidJSONError(ve, request=self) from ve'"
+pylint,unused-argument,medium,target/requests/src/requests/models.py,588,33,Unused argument 'url'
+pylint,too-many-instance-attributes,low,target/requests/src/requests/models.py,640,,Too many instance attributes (13/7)
+pylint,pointless-statement,medium,target/requests/src/requests/models.py,715,12,Statement seems to have no effect
+pylint,no-else-return,low,target/requests/src/requests/models.py,792,8,"Unnecessary ""else"" after ""return"", remove the ""else"" and de-indent the code inside it"
+pylint,raise-missing-from,medium,target/requests/src/requests/models.py,822,20,Consider explicitly re-raising using 'raise ChunkedEncodingError(e) from e'
+pylint,raise-missing-from,medium,target/requests/src/requests/models.py,824,20,Consider explicitly re-raising using 'raise ContentDecodingError(e) from e'
+pylint,raise-missing-from,medium,target/requests/src/requests/models.py,826,20,Consider explicitly re-raising using 'raise ConnectionError(e) from e'
+pylint,raise-missing-from,medium,target/requests/src/requests/models.py,828,20,Consider explicitly re-raising using 'raise RequestsSSLError(e) from e'
+pylint,no-else-raise,low,target/requests/src/requests/models.py,839,8,"Unnecessary ""elif"" after ""raise"", remove the leading ""el"" from ""elif"""
+pylint,raise-missing-from,medium,target/requests/src/requests/models.py,971,20,"Consider explicitly re-raising using 'raise RequestsJSONDecodeError(e.msg, e.doc, e.pos) from e'"
+pylint,raise-missing-from,medium,target/requests/src/requests/models.py,978,12,"Consider explicitly re-raising using 'raise RequestsJSONDecodeError(e.msg, e.doc, e.pos) from e'"
+pylint,missing-module-docstring,low,target/requests/src/requests/packages.py,1,,Missing module docstring
+pylint,unused-import,medium,target/requests/src/requests/sessions.py,33,,Unused REDIRECT_STATI imported from models
+pylint,unused-import,medium,target/requests/src/requests/sessions.py,41,,Unused should_bypass_proxies imported from utils
+pylint,missing-class-docstring,low,target/requests/src/requests/sessions.py,106,,Missing class docstring
+pylint,too-many-arguments,low,target/requests/src/requests/sessions.py,159,4,Too many arguments (9/5)
+pylint,too-many-branches,low,target/requests/src/requests/sessions.py,159,4,Too many branches (13/12)
+pylint,too-many-locals,low,target/requests/src/requests/sessions.py,159,4,Too many local variables (20/15)
+pylint,too-many-positional-arguments,low,target/requests/src/requests/sessions.py,159,4,Too many positional arguments (9/5)
+pylint,too-many-statements,low,target/requests/src/requests/sessions.py,159,4,Too many statements (51/50)
+pylint,protected-access,medium,target/requests/src/requests/sessions.py,240,35,Access to a protected member _cookies of a client class
+pylint,protected-access,medium,target/requests/src/requests/sessions.py,241,26,Access to a protected member _cookies of a client class
+pylint,protected-access,medium,target/requests/src/requests/sessions.py,242,45,Access to a protected member _cookies of a client class
+pylint,protected-access,medium,target/requests/src/requests/sessions.py,251,25,Access to a protected member _body_position of a client class
+pylint,too-many-instance-attributes,low,target/requests/src/requests/sessions.py,356,,Too many instance attributes (12/7)
+pylint,too-many-arguments,low,target/requests/src/requests/sessions.py,500,4,Too many arguments (17/5)
+pylint,too-many-locals,low,target/requests/src/requests/sessions.py,500,4,Too many local variables (22/15)
+pylint,too-many-positional-arguments,low,target/requests/src/requests/sessions.py,500,4,Too many positional arguments (17/5)
+pylint,unnecessary-comprehension,low,target/requests/src/requests/sessions.py,724,22,"Unnecessary use of a comprehension, use list(gen) instead."
+pylint,protected-access,medium,target/requests/src/requests/sessions.py,739,16,Access to a protected member _next of a client class
+pylint,pointless-statement,medium,target/requests/src/requests/sessions.py,746,12,Statement seems to have no effect
+pylint,too-many-arguments,low,target/requests/src/requests/sessions.py,750,4,Too many arguments (6/5)
+pylint,too-many-positional-arguments,low,target/requests/src/requests/sessions.py,750,4,Too many positional arguments (6/5)
+pylint,consider-using-f-string,low,target/requests/src/requests/status_codes.py,118,15,Formatting a regular string which could be an f-string
+pylint,global-statement,medium,target/requests/src/requests/status_codes.py,120,4,Using the global statement
+pylint,redefined-builtin,medium,target/requests/src/requests/status_codes.py,120,4,Redefining built-in '__doc__'
+pylint,missing-function-docstring,low,target/requests/src/requests/structures.py,76,4,Missing function or method docstring
+pylint,too-many-lines,low,target/requests/src/requests/utils.py,1,,Too many lines in module (1096/1000)
+pylint,unused-import,medium,target/requests/src/requests/utils.py,28,,Unused HEADER_VALIDATORS imported from _internal_utils
+pylint,unused-import,medium,target/requests/src/requests/utils.py,28,,Unused to_native_string imported from _internal_utils
+pylint,redefined-builtin,medium,target/requests/src/requests/utils.py,34,,Redefining built-in 'bytes'
+pylint,redefined-builtin,medium,target/requests/src/requests/utils.py,43,,Redefining built-in 'str'
+pylint,missing-function-docstring,low,target/requests/src/requests/utils.py,76,4,Missing function or method docstring
+pylint,import-outside-toplevel,low,target/requests/src/requests/utils.py,78,12,Import outside toplevel (winreg)
+pylint,invalid-name,low,target/requests/src/requests/utils.py,83,12,"Variable name ""internetSettings"" doesn't conform to snake_case naming style"
+pylint,invalid-name,low,target/requests/src/requests/utils.py,88,12,"Variable name ""proxyEnable"" doesn't conform to snake_case naming style"
+pylint,invalid-name,low,target/requests/src/requests/utils.py,90,12,"Variable name ""proxyOverride"" doesn't conform to snake_case naming style"
+pylint,invalid-name,low,target/requests/src/requests/utils.py,99,8,"Variable name ""proxyOverride"" doesn't conform to snake_case naming style"
+pylint,invalid-name,low,target/requests/src/requests/utils.py,101,8,"Variable name ""proxyOverride"" doesn't conform to snake_case naming style"
+pylint,function-redefined,high,target/requests/src/requests/utils.py,114,4,function already defined line 43
+pylint,no-else-return,low,target/requests/src/requests/utils.py,120,8,"Unnecessary ""else"" after ""return"", remove the ""else"" and de-indent the code inside it"
+pylint,missing-function-docstring,low,target/requests/src/requests/utils.py,135,,Missing function or method docstring
+pylint,too-many-branches,low,target/requests/src/requests/utils.py,135,,Too many branches (14/12)
+pylint,inconsistent-return-statements,low,target/requests/src/requests/utils.py,204,,"Either all return statements in a function should return an expression, or none of them should."
+pylint,import-outside-toplevel,low,target/requests/src/requests/utils.py,214,8,"Import outside toplevel (netrc.NetrcParseError, netrc.netrc)"
+pylint,inconsistent-return-statements,low,target/requests/src/requests/utils.py,261,,"Either all return statements in a function should return an expression, or none of them should."
+pylint,line-too-long,low,target/requests/src/requests/utils.py,283,,Line too long (128/100)
+pylint,line-too-long,low,target/requests/src/requests/utils.py,284,,Line too long (105/100)
+pylint,consider-using-with,low,target/requests/src/requests/utils.py,291,15,Consider using 'with' for resource-allocating operations
+pylint,line-too-long,low,target/requests/src/requests/utils.py,299,,Line too long (117/100)
+pylint,inconsistent-return-statements,low,target/requests/src/requests/utils.py,539,,"Either all return statements in a function should return an expression, or none of them should."
+pylint,line-too-long,low,target/requests/src/requests/utils.py,560,,Line too long (106/100)
+pylint,raise-missing-from,medium,target/requests/src/requests/utils.py,649,16,"Consider explicitly re-raising using 'except ValueError as exc' and 'raise InvalidURL(f""Invalid percent-escape sequence: '{h}'"") from exc'"
+pylint,too-many-branches,low,target/requests/src/requests/utils.py,765,,Too many branches (14/12)
+pylint,no-else-return,low,target/requests/src/requests/utils.py,832,4,"Unnecessary ""else"" after ""return"", remove the ""else"" and de-indent the code inside it"
+pylint,line-too-long,low,target/requests/src/requests/utils.py,917,,Line too long (118/100)
+pylint,invalid-name,low,target/requests/src/requests/utils.py,952,,"Constant name ""_null"" doesn't conform to UPPER_CASE naming style"
+pylint,invalid-name,low,target/requests/src/requests/utils.py,953,,"Constant name ""_null2"" doesn't conform to UPPER_CASE naming style"
+pylint,invalid-name,low,target/requests/src/requests/utils.py,954,,"Constant name ""_null3"" doesn't conform to UPPER_CASE naming style"
+pylint,too-many-return-statements,low,target/requests/src/requests/utils.py,957,,Too many return statements (9/6)
+pylint,unused-variable,medium,target/requests/src/requests/utils.py,996,18,Unused variable 'host'
+pylint,unused-variable,medium,target/requests/src/requests/utils.py,996,24,Unused variable 'port'
+pylint,unused-variable,medium,target/requests/src/requests/utils.py,1070,41,Unused variable 'fragment'
+pylint,protected-access,medium,target/requests/src/requests/utils.py,1087,8,Access to a protected member _body_position of a client class
+pylint,protected-access,medium,target/requests/src/requests/utils.py,1090,22,Access to a protected member _body_position of a client class
+pylint,raise-missing-from,medium,target/requests/src/requests/utils.py,1092,12,Consider explicitly re-raising using 'except OSError as exc' and 'raise UnrewindableBodyError('An error occurred when rewinding request body for redirect.') from exc'
+ruff,PLR2004,medium,src/requests/__init__.py,63,32,"Magic value used in comparison, consider replacing `2` with a constant variable"
+ruff,PLR2004,medium,src/requests/__init__.py,72,25,"Magic value used in comparison, consider replacing `21` with a constant variable"
+ruff,UP032,medium,src/requests/__init__.py,101,19,Use f-string instead of `format` call
+ruff,E501,medium,src/requests/__init__.py,114,89,Line too long (89 > 88)
+ruff,UP032,medium,src/requests/__init__.py,114,9,Use f-string instead of `format` call
+ruff,E402,medium,src/requests/__init__.py,143,1,Module level import not at top of file
+ruff,E402,medium,src/requests/__init__.py,148,1,Module level import not at top of file
+ruff,E402,medium,src/requests/__init__.py,149,1,Module level import not at top of file
+ruff,E402,medium,src/requests/__init__.py,151,1,Module level import not at top of file
+ruff,F401,medium,src/requests/__init__.py,151,15,"`.packages` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,151,25,"`.utils` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,E402,medium,src/requests/__init__.py,152,1,Module level import not at top of file
+ruff,F401,medium,src/requests/__init__.py,153,5,"`.__version__.__author__` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,154,5,"`.__version__.__author_email__` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,155,5,"`.__version__.__build__` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,156,5,"`.__version__.__cake__` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,157,5,"`.__version__.__copyright__` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,158,5,"`.__version__.__description__` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,159,5,"`.__version__.__license__` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,160,5,"`.__version__.__title__` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,161,5,"`.__version__.__url__` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,162,5,"`.__version__.__version__` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,E402,medium,src/requests/__init__.py,164,1,Module level import not at top of file
+ruff,F401,medium,src/requests/__init__.py,164,18,"`.api.delete` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,164,26,"`.api.get` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,164,31,"`.api.head` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,164,37,"`.api.options` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,164,46,"`.api.patch` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,164,53,"`.api.post` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,164,59,"`.api.put` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,164,64,"`.api.request` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,E402,medium,src/requests/__init__.py,165,1,Module level import not at top of file
+ruff,F401,medium,src/requests/__init__.py,166,5,"`.exceptions.ConnectionError` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,167,5,"`.exceptions.ConnectTimeout` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,169,5,"`.exceptions.HTTPError` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,170,5,"`.exceptions.JSONDecodeError` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,171,5,"`.exceptions.ReadTimeout` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,172,5,"`.exceptions.RequestException` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,173,5,"`.exceptions.Timeout` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,174,5,"`.exceptions.TooManyRedirects` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,175,5,"`.exceptions.URLRequired` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,E402,medium,src/requests/__init__.py,177,1,Module level import not at top of file
+ruff,F401,medium,src/requests/__init__.py,177,21,"`.models.PreparedRequest` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,177,38,"`.models.Request` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,177,47,"`.models.Response` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,E402,medium,src/requests/__init__.py,178,1,Module level import not at top of file
+ruff,F401,medium,src/requests/__init__.py,178,23,"`.sessions.Session` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,F401,medium,src/requests/__init__.py,178,32,"`.sessions.session` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,E402,medium,src/requests/__init__.py,179,1,Module level import not at top of file
+ruff,F401,medium,src/requests/__init__.py,179,27,"`.status_codes.codes` imported but unused; consider removing, adding to `__all__`, or using a redundant alias"
+ruff,SIM108,medium,src/requests/_internal_utils.py,30,5,"Use ternary operator `out = string if isinstance(string, builtin_str) else string.decode(encoding)` instead of `if`-`else`-block"
+ruff,TRY300,medium,src/requests/_internal_utils.py,48,9,Consider moving this statement to an `else` block
+ruff,N802,medium,src/requests/adapters.py,63,9,Function name `SOCKSProxyManager` should be lowercase
+ruff,EM101,medium,src/requests/adapters.py,64,29,"Exception must not use a string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/adapters.py,64,15,Avoid specifying long messages outside the exception class
+ruff,UP006,medium,src/requests/adapters.py,93,19,Use `tuple` instead of `typing.Tuple` for type annotation
+ruff,UP006,medium,src/requests/adapters.py,95,8,Use `dict` instead of `typing.Dict` for type annotation
+ruff,UP006,medium,src/requests/adapters.py,95,38,Use `dict` instead of `typing.Dict` for type annotation
+ruff,PLR2004,medium,src/requests/adapters.py,122,67,"Magic value used in comparison, consider replacing `2` with a constant variable"
+ruff,PLR0913,medium,src/requests/adapters.py,143,9,Too many arguments in function definition (6 > 5)
+ruff,FBT002,medium,src/requests/adapters.py,144,24,Boolean default positional argument in function definition
+ruff,FBT002,medium,src/requests/adapters.py,144,52,Boolean default positional argument in function definition
+ruff,E501,medium,src/requests/adapters.py,154,89,Line too long (95 > 88)
+ruff,RUF012,medium,src/requests/adapters.py,194,17,Mutable class attributes should be annotated with `typing.ClassVar`
+ruff,E501,medium,src/requests/adapters.py,274,89,Line too long (89 > 88)
+ruff,E501,medium,src/requests/adapters.py,319,89,Line too long (100 > 88)
+ruff,E501,medium,src/requests/adapters.py,321,89,Line too long (98 > 88)
+ruff,TRY003,medium,src/requests/adapters.py,328,27,Avoid specifying long messages outside the exception class
+ruff,EM102,medium,src/requests/adapters.py,329,25,"Exception must not use an f-string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/adapters.py,350,23,Avoid specifying long messages outside the exception class
+ruff,EM102,medium,src/requests/adapters.py,351,21,"Exception must not use an f-string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/adapters.py,355,23,Avoid specifying long messages outside the exception class
+ruff,EM102,medium,src/requests/adapters.py,356,21,"Exception must not use an f-string literal, assign to variable first"
+ruff,E501,medium,src/requests/adapters.py,365,89,Line too long (97 > 88)
+ruff,TRY003,medium,src/requests/adapters.py,479,23,Avoid specifying long messages outside the exception class
+ruff,EM101,medium,src/requests/adapters.py,480,21,"Exception must not use a string literal, assign to variable first"
+ruff,E501,medium,src/requests/adapters.py,504,89,Line too long (95 > 88)
+ruff,TRY003,medium,src/requests/adapters.py,522,23,Avoid specifying long messages outside the exception class
+ruff,EM101,medium,src/requests/adapters.py,523,21,"Exception must not use a string literal, assign to variable first"
+ruff,E501,medium,src/requests/adapters.py,587,89,Line too long (89 > 88)
+ruff,PIE790,medium,src/requests/adapters.py,590,9,Unnecessary `pass` statement
+ruff,PLR0912,medium,src/requests/adapters.py,613,9,Too many branches (19 > 12)
+ruff,PLR0913,medium,src/requests/adapters.py,613,9,Too many arguments in function definition (6 > 5)
+ruff,FBT002,medium,src/requests/adapters.py,614,24,Boolean default positional argument in function definition
+ruff,FBT002,medium,src/requests/adapters.py,614,52,Boolean default positional argument in function definition
+ruff,TRY003,medium,src/requests/adapters.py,657,23,Avoid specifying long messages outside the exception class
+ruff,EM102,medium,src/requests/adapters.py,658,21,"Exception must not use an f-string literal, assign to variable first"
+ruff,SIM102,medium,src/requests/adapters.py,685,13,Use a single `if` statement instead of nested `if` statements
+ruff,RET506,medium,src/requests/adapters.py,712,13,Unnecessary `elif` after `raise` statement
+ruff,E501,medium,src/requests/api.py,17,89,Line too long (139 > 88)
+ruff,E501,medium,src/requests/api.py,23,89,Line too long (106 > 88)
+ruff,E501,medium,src/requests/api.py,24,89,Line too long (92 > 88)
+ruff,E501,medium,src/requests/api.py,25,89,Line too long (90 > 88)
+ruff,E501,medium,src/requests/api.py,26,89,Line too long (133 > 88)
+ruff,E501,medium,src/requests/api.py,27,89,Line too long (116 > 88)
+ruff,E501,medium,src/requests/api.py,28,89,Line too long (116 > 88)
+ruff,E501,medium,src/requests/api.py,29,89,Line too long (123 > 88)
+ruff,E501,medium,src/requests/api.py,36,89,Line too long (136 > 88)
+ruff,E501,medium,src/requests/api.py,39,89,Line too long (91 > 88)
+ruff,E501,medium,src/requests/api.py,42,89,Line too long (96 > 88)
+ruff,E501,medium,src/requests/api.py,43,89,Line too long (107 > 88)
+ruff,E501,medium,src/requests/api.py,109,89,Line too long (106 > 88)
+ruff,E501,medium,src/requests/api.py,124,89,Line too long (106 > 88)
+ruff,E501,medium,src/requests/api.py,139,89,Line too long (106 > 88)
+ruff,UP032,medium,src/requests/auth.py,37,13,Use f-string instead of `format` call
+ruff,UP032,medium,src/requests/auth.py,47,13,Use f-string instead of `format` call
+ruff,RET504,medium,src/requests/auth.py,66,12,Unnecessary assignment to `authstr` before `return` statement
+ruff,EM101,medium,src/requests/auth.py,73,35,"Exception must not use a string literal, assign to variable first"
+ruff,PLR0912,medium,src/requests/auth.py,126,9,Too many branches (18 > 12)
+ruff,PLR0915,medium,src/requests/auth.py,126,9,Too many statements (70 > 50)
+ruff,SIM108,medium,src/requests/auth.py,138,9,"Use ternary operator `_algorithm = ""MD5"" if algorithm is None else algorithm.upper()` instead of `if`-`else`-block"
+ruff,PLR1714,medium,src/requests/auth.py,143,12,"Consider merging multiple comparisons: `_algorithm in (""MD5"", ""MD5-SESS"")`. Use a `set` if the elements are hashable."
+ruff,N806,medium,src/requests/auth.py,176,9,Variable `KD` in function should be lowercase
+ruff,N806,medium,src/requests/auth.py,189,9,Variable `A1` in function should be lowercase
+ruff,N806,medium,src/requests/auth.py,190,9,Variable `A2` in function should be lowercase
+ruff,N806,medium,src/requests/auth.py,192,9,Variable `HA1` in function should be lowercase
+ruff,N806,medium,src/requests/auth.py,193,9,Variable `HA2` in function should be lowercase
+ruff,N806,medium,src/requests/auth.py,207,13,Variable `HA1` in function should be lowercase
+ruff,PLR2004,medium,src/requests/auth.py,250,16,"Magic value used in comparison, consider replacing `400` with a constant variable"
+ruff,PLR2004,medium,src/requests/auth.py,250,39,"Magic value used in comparison, consider replacing `500` with a constant variable"
+ruff,PLR2004,medium,src/requests/auth.py,260,78,"Magic value used in comparison, consider replacing `2` with a constant variable"
+ruff,SIM105,medium,src/requests/compat.py,23,13,Use `contextlib.suppress(ImportError)` instead of `try`-`except`-`pass`
+ruff,PLR2004,medium,src/requests/compat.py,40,21,"Magic value used in comparison, consider replacing `2` with a constant variable"
+ruff,PLR2004,medium,src/requests/compat.py,43,21,"Magic value used in comparison, consider replacing `3` with a constant variable"
+ruff,F401,medium,src/requests/compat.py,52,12,`json` imported but unused
+ruff,F401,medium,src/requests/compat.py,57,22,`json.JSONDecodeError` imported but unused
+ruff,E402,medium,src/requests/compat.py,60,1,Module level import not at top of file
+ruff,F401,medium,src/requests/compat.py,60,25,`collections.OrderedDict` imported but unused
+ruff,E402,medium,src/requests/compat.py,61,1,Module level import not at top of file
+ruff,F401,medium,src/requests/compat.py,61,29,`collections.abc.Callable` imported but unused
+ruff,F401,medium,src/requests/compat.py,61,39,`collections.abc.Mapping` imported but unused
+ruff,F401,medium,src/requests/compat.py,61,48,`collections.abc.MutableMapping` imported but unused
+ruff,E402,medium,src/requests/compat.py,62,1,Module level import not at top of file
+ruff,F401,medium,src/requests/compat.py,62,31,`http.cookiejar` imported but unused
+ruff,E402,medium,src/requests/compat.py,63,1,Module level import not at top of file
+ruff,F401,medium,src/requests/compat.py,63,26,`http.cookies.Morsel` imported but unused
+ruff,E402,medium,src/requests/compat.py,64,1,Module level import not at top of file
+ruff,F401,medium,src/requests/compat.py,64,16,`io.StringIO` imported but unused
+ruff,E402,medium,src/requests/compat.py,69,1,Module level import not at top of file
+ruff,F401,medium,src/requests/compat.py,70,5,`urllib.parse.quote` imported but unused
+ruff,F401,medium,src/requests/compat.py,71,5,`urllib.parse.quote_plus` imported but unused
+ruff,F401,medium,src/requests/compat.py,72,5,`urllib.parse.unquote` imported but unused
+ruff,F401,medium,src/requests/compat.py,73,5,`urllib.parse.unquote_plus` imported but unused
+ruff,F401,medium,src/requests/compat.py,74,5,`urllib.parse.urldefrag` imported but unused
+ruff,F401,medium,src/requests/compat.py,75,5,`urllib.parse.urlencode` imported but unused
+ruff,F401,medium,src/requests/compat.py,76,5,`urllib.parse.urljoin` imported but unused
+ruff,F401,medium,src/requests/compat.py,77,5,`urllib.parse.urlparse` imported but unused
+ruff,F401,medium,src/requests/compat.py,78,5,`urllib.parse.urlsplit` imported but unused
+ruff,F401,medium,src/requests/compat.py,79,5,`urllib.parse.urlunparse` imported but unused
+ruff,E402,medium,src/requests/compat.py,81,1,Module level import not at top of file
+ruff,F401,medium,src/requests/compat.py,82,5,`urllib.request.getproxies` imported but unused
+ruff,F401,medium,src/requests/compat.py,83,5,`urllib.request.getproxies_environment` imported but unused
+ruff,F401,medium,src/requests/compat.py,84,5,`urllib.request.parse_http_list` imported but unused
+ruff,F401,medium,src/requests/compat.py,85,5,`urllib.request.proxy_bypass` imported but unused
+ruff,F401,medium,src/requests/compat.py,86,5,`urllib.request.proxy_bypass_environment` imported but unused
+ruff,PLW0127,medium,src/requests/compat.py,90,1,Self-assignment of variable `str`
+ruff,PLW0127,medium,src/requests/compat.py,91,1,Self-assignment of variable `bytes`
+ruff,E501,medium,src/requests/cookies.py,79,89,Line too long (91 > 88)
+ruff,EM101,medium,src/requests/cookies.py,81,13,"Exception must not use a string literal, assign to variable first"
+ruff,PLR1704,medium,src/requests/cookies.py,166,9,Redefining argument with the local name `domain`
+ruff,PLR1704,medium,src/requests/cookies.py,166,17,Redefining argument with the local name `path`
+ruff,PLR1704,medium,src/requests/cookies.py,166,23,Redefining argument with the local name `name`
+ruff,RET502,medium,src/requests/cookies.py,216,13,Do not implicitly `return None` in function able to return non-`None` value
+ruff,SIM102,medium,src/requests/cookies.py,379,13,Use a single `if` statement instead of nested `if` statements
+ruff,SIM102,medium,src/requests/cookies.py,380,17,Use a single `if` statement instead of nested `if` statements
+ruff,EM102,medium,src/requests/cookies.py,384,24,"Exception must not use an f-string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/cookies.py,384,15,Avoid specifying long messages outside the exception class
+ruff,N806,medium,src/requests/cookies.py,398,9,Variable `toReturn` in function should be lowercase
+ruff,SIM102,medium,src/requests/cookies.py,400,13,Use a single `if` statement instead of nested `if` statements
+ruff,SIM102,medium,src/requests/cookies.py,401,17,Use a single `if` statement instead of nested `if` statements
+ruff,TRY003,medium,src/requests/cookies.py,405,35,Avoid specifying long messages outside the exception class
+ruff,EM102,medium,src/requests/cookies.py,406,33,"Exception must not use an f-string literal, assign to variable first"
+ruff,N806,medium,src/requests/cookies.py,409,25,Variable `toReturn` in function should be lowercase
+ruff,EM102,medium,src/requests/cookies.py,413,24,"Exception must not use an f-string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/cookies.py,413,15,Avoid specifying long messages outside the exception class
+ruff,TRY003,medium,src/requests/cookies.py,479,15,Avoid specifying long messages outside the exception class
+ruff,EM102,medium,src/requests/cookies.py,480,13,"Exception must not use an f-string literal, assign to variable first"
+ruff,EM102,medium,src/requests/cookies.py,500,29,"Exception must not use an f-string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/cookies.py,500,19,Avoid specifying long messages outside the exception class
+ruff,FBT002,medium,src/requests/cookies.py,521,54,Boolean default positional argument in function definition
+ruff,EM101,medium,src/requests/cookies.py,550,26,"Exception must not use a string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/cookies.py,550,15,Avoid specifying long messages outside the exception class
+ruff,TRY004,medium,src/requests/cookies.py,550,9,Prefer `TypeError` exception for invalid type
+ruff,N818,medium,src/requests/exceptions.py,12,7,Exception name `RequestException` should be named with an Error suffix
+ruff,N818,medium,src/requests/exceptions.py,80,7,Exception name `ConnectTimeout` should be named with an Error suffix
+ruff,N818,medium,src/requests/exceptions.py,99,7,Exception name `MissingSchema` should be named with an Error suffix
+ruff,N818,medium,src/requests/exceptions.py,103,7,Exception name `InvalidSchema` should be named with an Error suffix
+ruff,N818,medium,src/requests/exceptions.py,107,7,Exception name `InvalidURL` should be named with an Error suffix
+ruff,N818,medium,src/requests/exceptions.py,111,7,Exception name `InvalidHeader` should be named with an Error suffix
+ruff,UP032,medium,src/requests/help.py,50,34,Use f-string instead of `format` call
+ruff,SIM114,medium,src/requests/help.py,59,5,Combine `if` branches using logical `or` operator
+ruff,E501,medium,src/requests/models.py,11,89,Line too long (89 > 88)
+ruff,SIM114,medium,src/requests/models.py,115,9,Combine `if` branches using logical `or` operator
+ruff,RET505,medium,src/requests/models.py,117,9,Unnecessary `elif` after `return` statement
+ruff,PLW2901,medium,src/requests/models.py,123,21,`for` loop variable `vs` overwritten by assignment target
+ruff,PERF401,medium,src/requests/models.py,126,25,Use `list.extend` to create a transformed list
+ruff,PLR0912,medium,src/requests/models.py,137,9,Too many branches (17 > 12)
+ruff,E501,medium,src/requests/models.py,143,89,Line too long (96 > 88)
+ruff,EM101,medium,src/requests/models.py,147,30,"Exception must not use a string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/models.py,147,19,Avoid specifying long messages outside the exception class
+ruff,RET506,medium,src/requests/models.py,148,9,Unnecessary `elif` after `raise` statement
+ruff,EM101,medium,src/requests/models.py,149,30,"Exception must not use a string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/models.py,149,19,Avoid specifying long messages outside the exception class
+ruff,PLW2901,medium,src/requests/models.py,157,17,`for` loop variable `val` overwritten by assignment target
+ruff,PLW2901,medium,src/requests/models.py,162,25,`for` loop variable `v` overwritten by assignment target
+ruff,PLR2004,medium,src/requests/models.py,178,30,"Magic value used in comparison, consider replacing `2` with a constant variable"
+ruff,PLR2004,medium,src/requests/models.py,180,32,"Magic value used in comparison, consider replacing `3` with a constant variable"
+ruff,EM102,medium,src/requests/models.py,211,30,"Exception must not use an f-string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/models.py,211,19,Avoid specifying long messages outside the exception class
+ruff,TRY300,medium,src/requests/models.py,225,13,Consider moving this statement to an `else` block
+ruff,E501,medium,src/requests/models.py,233,89,Line too long (94 > 88)
+ruff,E501,medium,src/requests/models.py,242,89,Line too long (96 > 88)
+ruff,PLR0913,medium,src/requests/models.py,258,9,Too many arguments in function definition (10 > 5)
+ruff,E501,medium,src/requests/models.py,296,89,Line too long (102 > 88)
+ruff,PLR0913,medium,src/requests/models.py,351,9,Too many arguments in function definition (10 > 5)
+ruff,PLR0912,medium,src/requests/models.py,409,9,Too many branches (16 > 12)
+ruff,SIM108,medium,src/requests/models.py,416,9,"Use ternary operator `url = url.decode(""utf8"") if isinstance(url, bytes) else str(url)` instead of `if`-`else`-block"
+ruff,TRY003,medium,src/requests/models.py,438,19,Avoid specifying long messages outside the exception class
+ruff,EM102,medium,src/requests/models.py,439,17,"Exception must not use an f-string literal, assign to variable first"
+ruff,EM102,medium,src/requests/models.py,444,30,"Exception must not use an f-string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/models.py,444,19,Avoid specifying long messages outside the exception class
+ruff,E501,medium,src/requests/models.py,448,89,Line too long (89 > 88)
+ruff,EM101,medium,src/requests/models.py,454,34,"Exception must not use a string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/models.py,454,23,Avoid specifying long messages outside the exception class
+ruff,EM101,medium,src/requests/models.py,456,30,"Exception must not use a string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/models.py,456,19,Avoid specifying long messages outside the exception class
+ruff,SIM108,medium,src/requests/models.py,475,13,"Use ternary operator `query = f""{query}&{enc_params}"" if query else enc_params` instead of `if`-`else`-block"
+ruff,PLR0912,medium,src/requests/models.py,494,9,Too many branches (17 > 12)
+ruff,EM101,medium,src/requests/models.py,545,21,"Exception must not use a string literal, assign to variable first"
+ruff,PLR5501,medium,src/requests/models.py,556,13,"Use `elif` instead of `else` then `if`, to reduce indentation"
+ruff,PLR2004,medium,src/requests/models.py,597,57,"Magic value used in comparison, consider replacing `2` with a constant variable"
+ruff,RUF012,medium,src/requests/models.py,645,17,Mutable class attributes should be annotated with `typing.ClassVar`
+ruff,E501,medium,src/requests/models.py,786,89,Line too long (98 > 88)
+ruff,E501,medium,src/requests/models.py,791,89,Line too long (93 > 88)
+ruff,RET505,medium,src/requests/models.py,794,9,Unnecessary `else` after `return` statement
+ruff,FBT002,medium,src/requests/models.py,799,42,Boolean default positional argument in function definition
+ruff,RET506,medium,src/requests/models.py,841,9,Unnecessary `elif` after `raise` statement
+ruff,TRY003,medium,src/requests/models.py,842,19,Avoid specifying long messages outside the exception class
+ruff,EM102,medium,src/requests/models.py,843,17,"Exception must not use an f-string literal, assign to variable first"
+ruff,FBT002,medium,src/requests/models.py,858,43,Boolean default positional argument in function definition
+ruff,PLW2901,medium,src/requests/models.py,873,17,`for` loop variable `chunk` overwritten by assignment target
+ruff,SIM108,medium,src/requests/models.py,875,13,Use ternary operator `lines = chunk.split(delimiter) if delimiter else chunk.splitlines()` instead of `if`-`else`-block
+ruff,EM101,medium,src/requests/models.py,897,36,"Exception must not use a string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/models.py,897,23,Avoid specifying long messages outside the exception class
+ruff,PLR2004,medium,src/requests/models.py,955,71,"Magic value used in comparison, consider replacing `3` with a constant variable"
+ruff,PLR2004,medium,src/requests/models.py,1013,12,"Magic value used in comparison, consider replacing `400` with a constant variable"
+ruff,PLR2004,medium,src/requests/models.py,1013,38,"Magic value used in comparison, consider replacing `500` with a constant variable"
+ruff,PLR2004,medium,src/requests/models.py,1018,14,"Magic value used in comparison, consider replacing `500` with a constant variable"
+ruff,PLR2004,medium,src/requests/models.py,1018,40,"Magic value used in comparison, consider replacing `600` with a constant variable"
+ruff,PLW2901,medium,src/requests/packages.py,22,13,`for` loop variable `mod` overwritten by assignment target
+ruff,PLR0912,medium,src/requests/sessions.py,159,9,Too many branches (13 > 12)
+ruff,PLR0913,medium,src/requests/sessions.py,159,9,Too many arguments in function definition (8 > 5)
+ruff,PLR0915,medium,src/requests/sessions.py,159,9,Too many statements (52 > 50)
+ruff,FBT002,medium,src/requests/sessions.py,163,9,Boolean default positional argument in function definition
+ruff,FBT002,medium,src/requests/sessions.py,165,9,Boolean default positional argument in function definition
+ruff,FBT002,medium,src/requests/sessions.py,168,9,Boolean default positional argument in function definition
+ruff,TRY003,medium,src/requests/sessions.py,191,23,Avoid specifying long messages outside the exception class
+ruff,EM102,medium,src/requests/sessions.py,192,21,"Exception must not use an f-string literal, assign to variable first"
+ruff,RUF012,medium,src/requests/sessions.py,375,17,Mutable class attributes should be annotated with `typing.ClassVar`
+ruff,PLR0913,medium,src/requests/sessions.py,500,9,Too many arguments in function definition (16 > 5)
+ruff,FBT002,medium,src/requests/sessions.py,511,9,Boolean default positional argument in function definition
+ruff,E501,medium,src/requests/sessions.py,550,89,Line too long (95 > 88)
+ruff,RET504,medium,src/requests/sessions.py,591,16,Unnecessary assignment to `resp` before `return` statement
+ruff,EM101,medium,src/requests/sessions.py,689,30,"Exception must not use a string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/sessions.py,689,19,Avoid specifying long messages outside the exception class
+ruff,TRY004,medium,src/requests/sessions.py,689,13,Prefer `TypeError` exception for invalid type
+ruff,E501,medium,src/requests/sessions.py,736,89,Line too long (100 > 88)
+ruff,SIM105,medium,src/requests/sessions.py,738,13,Use `contextlib.suppress(StopIteration)` instead of `try`-`except`-`pass`
+ruff,EM102,medium,src/requests/sessions.py,792,29,"Exception must not use an f-string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/sessions.py,792,15,Avoid specifying long messages outside the exception class
+ruff,RET504,medium,src/requests/sessions.py,812,16,Unnecessary assignment to `state` before `return` statement
+ruff,UP031,medium,src/requests/status_codes.py,118,16,Use format specifiers instead of percent format
+ruff,PLW0603,medium,src/requests/status_codes.py,120,12,Using the global statement to update `__doc__` is discouraged
+ruff,N806,medium,src/requests/utils.py,83,13,Variable `internetSettings` in function should be lowercase
+ruff,N806,medium,src/requests/utils.py,88,13,Variable `proxyEnable` in function should be lowercase
+ruff,N806,medium,src/requests/utils.py,90,13,Variable `proxyOverride` in function should be lowercase
+ruff,N806,medium,src/requests/utils.py,99,9,Variable `proxyOverride` in function should be lowercase
+ruff,N806,medium,src/requests/utils.py,101,9,Variable `proxyOverride` in function should be lowercase
+ruff,SIM102,medium,src/requests/utils.py,104,13,Use a single `if` statement instead of nested `if` statements
+ruff,PLW2901,medium,src/requests/utils.py,107,13,`for` loop variable `test` overwritten by assignment target
+ruff,PLW2901,medium,src/requests/utils.py,108,13,`for` loop variable `test` overwritten by assignment target
+ruff,PLW2901,medium,src/requests/utils.py,109,13,`for` loop variable `test` overwritten by assignment target
+ruff,RUF100,medium,src/requests/utils.py,114,30,Unused blanket `noqa` directive
+ruff,RET505,medium,src/requests/utils.py,122,9,Unnecessary `else` after `return` statement
+ruff,PLR0912,medium,src/requests/utils.py,135,5,Too many branches (14 > 12)
+ruff,FBT002,medium,src/requests/utils.py,204,25,Boolean default positional argument in function definition
+ruff,RET502,medium,src/requests/utils.py,225,17,Do not implicitly `return None` in function able to return non-`None` value
+ruff,RET502,medium,src/requests/utils.py,233,13,Do not implicitly `return None` in function able to return non-`None` value
+ruff,RET503,medium,src/requests/utils.py,264,5,Missing explicit `return` at the end of function able to return non-`None` value
+ruff,E501,medium,src/requests/utils.py,283,89,Line too long (128 > 88)
+ruff,E501,medium,src/requests/utils.py,284,89,Line too long (105 > 88)
+ruff,E501,medium,src/requests/utils.py,299,89,Line too long (117 > 88)
+ruff,EM101,medium,src/requests/utils.py,340,26,"Exception must not use a string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/utils.py,340,15,Avoid specifying long messages outside the exception class
+ruff,TRY004,medium,src/requests/utils.py,340,9,Prefer `TypeError` exception for invalid type
+ruff,EM101,medium,src/requests/utils.py,366,26,"Exception must not use a string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/utils.py,366,15,Avoid specifying long messages outside the exception class
+ruff,TRY004,medium,src/requests/utils.py,366,9,Prefer `TypeError` exception for invalid type
+ruff,PLW2901,medium,src/requests/utils.py,401,13,`for` loop variable `item` overwritten by assignment target
+ruff,FBT002,medium,src/requests/utils.py,442,33,Boolean default positional argument in function definition
+ruff,RET504,medium,src/requests/utils.py,475,12,Unnecessary assignment to `cookie_dict` before `return` statement
+ruff,PLW2901,medium,src/requests/utils.py,528,9,`for` loop variable `param` overwritten by assignment target
+ruff,RET503,medium,src/requests/utils.py,559,5,Missing explicit `return` at the end of function able to return non-`None` value
+ruff,E501,medium,src/requests/utils.py,560,89,Line too long (106 > 88)
+ruff,PLR2004,medium,src/requests/utils.py,645,22,"Magic value used in comparison, consider replacing `2` with a constant variable"
+ruff,EM102,medium,src/requests/utils.py,649,34,"Exception must not use an f-string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/utils.py,649,23,Avoid specifying long messages outside the exception class
+ruff,PLR2004,medium,src/requests/utils.py,731,31,"Magic value used in comparison, consider replacing `32` with a constant variable"
+ruff,PLR0912,medium,src/requests/utils.py,765,5,Too many branches (14 > 12)
+ruff,E501,medium,src/requests/utils.py,799,89,Line too long (96 > 88)
+ruff,SIM103,medium,src/requests/utils.py,820,5,Return the condition `bool(bypass)` directly
+ruff,RET505,medium,src/requests/utils.py,834,5,Unnecessary `else` after `return` statement
+ruff,FBT002,medium,src/requests/utils.py,864,39,Boolean default positional argument in function definition
+ruff,E501,medium,src/requests/utils.py,917,89,Line too long (118 > 88)
+ruff,PLR0911,medium,src/requests/utils.py,957,5,Too many return statements (9 > 6)
+ruff,PLR2004,medium,src/requests/utils.py,974,21,"Magic value used in comparison, consider replacing `2` with a constant variable"
+ruff,PLR2004,medium,src/requests/utils.py,980,21,"Magic value used in comparison, consider replacing `3` with a constant variable"
+ruff,TRY003,medium,src/requests/utils.py,1051,15,Avoid specifying long messages outside the exception class
+ruff,EM102,medium,src/requests/utils.py,1052,13,"Exception must not use an f-string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/utils.py,1058,15,Avoid specifying long messages outside the exception class
+ruff,EM102,medium,src/requests/utils.py,1059,13,"Exception must not use an f-string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/utils.py,1092,19,Avoid specifying long messages outside the exception class
+ruff,EM101,medium,src/requests/utils.py,1093,17,"Exception must not use a string literal, assign to variable first"
+ruff,EM101,medium,src/requests/utils.py,1096,37,"Exception must not use a string literal, assign to variable first"
+ruff,TRY003,medium,src/requests/utils.py,1096,15,Avoid specifying long messages outside the exception class
+ruff_security,S101,medium,src/requests/__init__.py,60,5,Use of `assert` detected
+ruff_security,S101,medium,src/requests/__init__.py,70,5,Use of `assert` detected
+ruff_security,S101,medium,src/requests/__init__.py,72,9,Use of `assert` detected
+ruff_security,S101,medium,src/requests/__init__.py,79,9,Use of `assert` detected
+ruff_security,S101,medium,src/requests/__init__.py,84,9,Use of `assert` detected
+ruff_security,B028,medium,src/requests/__init__.py,86,9,No explicit `stacklevel` keyword argument found
+ruff_security,B028,medium,src/requests/__init__.py,104,9,No explicit `stacklevel` keyword argument found
+ruff_security,B028,medium,src/requests/__init__.py,113,5,No explicit `stacklevel` keyword argument found
+ruff_security,S101,medium,src/requests/_internal_utils.py,45,5,Use of `assert` detected
+ruff_security,B904,medium,src/requests/adapters.py,474,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B028,medium,src/requests/adapters.py,507,9,No explicit `stacklevel` keyword argument found
+ruff_security,B904,medium,src/requests/adapters.py,637,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,657,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,682,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,688,21,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,691,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,694,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,698,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,700,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,703,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,706,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,711,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,713,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/adapters.py,715,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B028,medium,src/requests/auth.py,36,9,No explicit `stacklevel` keyword argument found
+ruff_security,B028,medium,src/requests/auth.py,46,9,No explicit `stacklevel` keyword argument found
+ruff_security,S324,medium,src/requests/auth.py,148,24,Probable use of insecure hash functions in `hashlib`: `md5`
+ruff_security,S324,medium,src/requests/auth.py,156,24,Probable use of insecure hash functions in `hashlib`: `sha1`
+ruff_security,S324,medium,src/requests/auth.py,205,18,Probable use of insecure hash functions in `hashlib`: `sha1`
+ruff_security,B018,medium,src/requests/auth.py,267,13,Found useless expression. Either assign it to a variable or remove it.
+ruff_security,B904,medium,src/requests/cookies.py,500,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B004,medium,src/requests/hooks.py,27,12,"Using `hasattr(x, ""__call__"")` to test if x is callable is unreliable. Use `callable(x)` for consistent results."
+ruff_security,B904,medium,src/requests/models.py,406,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/models.py,435,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/models.py,454,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/models.py,512,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B018,medium,src/requests/models.py,715,13,Found useless expression. Either assign it to a variable or remove it.
+ruff_security,B010,medium,src/requests/models.py,724,9,Do not call `setattr` with a constant attribute value. It is not any safer than normal property access.
+ruff_security,B010,medium,src/requests/models.py,725,9,Do not call `setattr` with a constant attribute value. It is not any safer than normal property access.
+ruff_security,B904,medium,src/requests/models.py,822,21,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/models.py,824,21,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/models.py,826,21,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/models.py,828,21,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/models.py,971,21,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/models.py,978,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B018,medium,src/requests/sessions.py,186,17,Found useless expression. Either assign it to a variable or remove it.
+ruff_security,B018,medium,src/requests/sessions.py,746,13,Found useless expression. Either assign it to a variable or remove it.
+ruff_security,B028,medium,src/requests/utils.py,162,17,No explicit `stacklevel` keyword argument found
+ruff_security,B028,medium,src/requests/utils.py,494,5,No explicit `stacklevel` keyword argument found
+ruff_security,B028,medium,src/requests/utils.py,603,5,No explicit `stacklevel` keyword argument found
+ruff_security,B904,medium,src/requests/utils.py,649,17,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"
+ruff_security,B904,medium,src/requests/utils.py,1092,13,"Within an `except` clause, raise exceptions with `raise ... from err` or `raise ... from None` to distinguish them from errors in exception handling"

@@ -1,0 +1,160 @@
+{
+  "tools": {
+    "pylint": {
+      "total": 270,
+      "severity": {
+        "high": 1,
+        "low": 154,
+        "medium": 115
+      },
+      "top_rules": [
+        [
+          "unused-import",
+          32
+        ],
+        [
+          "raise-missing-from",
+          27
+        ],
+        [
+          "invalid-name",
+          23
+        ],
+        [
+          "missing-function-docstring",
+          22
+        ],
+        [
+          "wrong-import-position",
+          17
+        ],
+        [
+          "line-too-long",
+          17
+        ],
+        [
+          "protected-access",
+          13
+        ],
+        [
+          "redefined-builtin",
+          10
+        ],
+        [
+          "too-many-branches",
+          8
+        ],
+        [
+          "too-many-arguments",
+          7
+        ]
+      ]
+    },
+    "ruff": {
+      "total": 325,
+      "severity": {
+        "medium": 325
+      },
+      "top_rules": [
+        [
+          "F401",
+          59
+        ],
+        [
+          "E501",
+          40
+        ],
+        [
+          "TRY003",
+          32
+        ],
+        [
+          "PLR2004",
+          20
+        ],
+        [
+          "EM102",
+          18
+        ],
+        [
+          "E402",
+          17
+        ],
+        [
+          "EM101",
+          17
+        ],
+        [
+          "FBT002",
+          14
+        ],
+        [
+          "N806",
+          13
+        ],
+        [
+          "PLW2901",
+          10
+        ]
+      ]
+    },
+    "ruff_security": {
+      "total": 52,
+      "severity": {
+        "medium": 52
+      },
+      "top_rules": [
+        [
+          "B904",
+          27
+        ],
+        [
+          "B028",
+          9
+        ],
+        [
+          "S101",
+          6
+        ],
+        [
+          "B018",
+          4
+        ],
+        [
+          "S324",
+          3
+        ],
+        [
+          "B010",
+          2
+        ],
+        [
+          "B004",
+          1
+        ]
+      ]
+    }
+  },
+  "overlap": {
+    "pylint_vs_ruff": {
+      "jaccard_location_rule": 0.0,
+      "intersection": 0,
+      "union": 553
+    },
+    "pylint_vs_ruff_security": {
+      "jaccard_location_rule": 0.0,
+      "intersection": 0,
+      "union": 301
+    },
+    "ruff_vs_ruff_security": {
+      "jaccard_location_rule": 0.0,
+      "intersection": 0,
+      "union": 356
+    },
+    "three_way": {
+      "intersection": 0,
+      "union": 605,
+      "intersection_over_union": 0.0
+    }
+  }
+}

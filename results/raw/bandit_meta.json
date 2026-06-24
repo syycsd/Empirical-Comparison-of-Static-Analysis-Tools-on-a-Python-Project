@@ -1,0 +1,4 @@
+{
+  "bandit_result_count": 0,
+  "bandit_note": "Bandit 1.8.2 on Python 3.14 raised scan exceptions on all files; ruff_security (--select=S,B) used as security-oriented comparator."
+}
